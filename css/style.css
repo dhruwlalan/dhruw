@@ -1,0 +1,144 @@
+
+.robotoMono {
+	font-family: 'Roboto Mono', monospace;
+}
+.sourceCodePro {
+	font-family: 'Source Code Pro', monospace;
+}
+.dmMono {
+	font-family: 'DM Mono', monospace;
+}
+.firaMono {
+	font-family: 'Fira Mono', monospace;
+}
+.nanumGothic {
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.quantico {
+	font-family: 'Quantico', sans-serif;
+}
+.rationale {
+	font-family: 'Rationale', sans-serif;
+}
+.thasadith {
+	font-family: 'Thasadith', sans-serif;
+}
+.firaCode {
+	font-family: 'Fira Code', monospace;
+}
+.robotoCondenced {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.anonymousPro {
+	font-family: 'Anonymous Pro', monospace;
+}
+.quickSand {
+	font-family: 'Quicksand', sans-serif;
+}
+.play {
+	font-family: 'Play', sans-serif;
+}
+.gio {
+	font-family: 'Geo', sans-serif;
+}
+.mavenPro {
+	font-family: 'Maven Pro', sans-serif;
+}
+.electrolize {
+	font-family: 'Electrolize', sans-serif;
+}
+
+
+/*********************************************/
+
+
+/*body {
+	
+
+}*/
+
+
+/*********************************************/
+
+.navbar {
+	padding: 0rem;
+	background-color: black;
+}
+.custom-nav .container a{
+	color: cyan;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: cyan;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.navbar-dark .navbar-toggler {
+    border-color: rgb(0, 190, 225);
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,255,249, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.logo-brand {
+	
+	font-weight: 400;
+	font-size: 2rem;
+}
+
+@media (max-width: 768px) and (min-width: 200px) {
+	.container {
+    	width: 80%;
+	}
+}
+
+/*********************************************/
+
+.gradient {
+	background: -webkit-linear-gradient(#000000 , #003337 );
+	height: 935px;
+}
+.bg-img {
+	background-image: url(../images/png01.png);
+	height: inherit;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+.header-table {
+	padding-top: 100px; 
+	width: 100%;
+	height: 100%;
+}
+.header-table-center {
+    vertical-align: middle;
+}
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.main-text h4{
+	color: #14ffec;
+	text-shadow: 1px 1px 8px #00FFFF;
+}
+.main-text h1{
+	font-family: 'Geo', sans-serif;
+	letter-spacing: 5px;
+	color: #14ffec;
+	font-size: 84px;
+	font-weight: 500;
+	margin: 0px;
+	margin-bottom: 50px;
+	text-shadow: 1px 1px 8px #00FFFF;
+}
+.main-text h3{
+	font-family: 'Electrolize', sans-serif;
+	color: #14ffec;
+	max-width: 500px;
+	font-size: 25px;
+	margin: 0px;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 8px #00FFFF;
+}
