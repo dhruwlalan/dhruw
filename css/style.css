@@ -64,14 +64,21 @@
 	padding: 0rem;
 	background-color: black;
 }
+.navbar-brand {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 900;
+}
 .custom-nav .container a{
 	color: cyan;
 }
+.nav-item {
+	padding: 0px 12px;
+}
 .navbar-dark .navbar-nav .nav-link {
     color: cyan;
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 1rem;
-    font-weight: 100;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 .navbar-dark .navbar-toggler {
     border-color: rgb(0, 190, 225);
@@ -88,7 +95,7 @@
 
 @media (max-width: 768px) and (min-width: 200px) {
 	.container {
-    	width: 80%;
+    	width: 90%;
 	}
 }
 
@@ -115,28 +122,29 @@
 }
 .section {
     padding-top: 100px;
-    padding-bottom: 100px;
+
 }
 
 
 .main-text h4{
 	color: #14ffec;
+	font-family: 'Orbitron', sans-serif;
 	text-shadow: 1px 1px 8px #00FFFF;
 }
 .main-text h1{
-	font-family: 'Geo', sans-serif;
+	font-family: 'Orbitron', sans-serif;
 	letter-spacing: 5px;
 	color: #14ffec;
 	font-size: 84px;
-	font-weight: 500;
+	font-weight: 800;
 	margin: 0px;
 	margin-bottom: 50px;
 	text-shadow: 1px 1px 8px #00FFFF;
 }
 .main-text h3{
-	font-family: 'Electrolize', sans-serif;
+	font-family: 'Orbitron', sans-serif;
 	color: #14ffec;
-	max-width: 500px;
+	max-width: 400px;
 	font-size: 25px;
 	margin: 0px;
 	letter-spacing: 3px;
