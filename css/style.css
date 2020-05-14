@@ -52,10 +52,13 @@
 /*********************************************/
 
 
-/*body {
-	
-
-}*/
+* {
+	margin: 0;
+	padding: 0;
+}
+*::before , *::after {
+	box-sizing: border-box;
+}
 
 
 /*********************************************/
@@ -80,19 +83,20 @@
     font-size: 1.1rem;
     font-weight: 500;
 }
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: white;
+}
 .navbar-dark .navbar-toggler {
     border-color: rgb(0, 190, 225);
 }
 .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,255,249, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-
 .logo-brand {
 	
 	font-weight: 400;
 	font-size: 2rem;
 }
-
 @media (max-width: 768px) and (min-width: 200px) {
 	.container {
     	width: 90%;
@@ -103,7 +107,7 @@
 
 .gradient {
 	background: -webkit-linear-gradient(#000000 , #003337 );
-	height: 935px;
+	height: 100vh;
 }
 .bg-img {
 	background-image: url(../images/png01.png);
@@ -122,7 +126,6 @@
 }
 .section {
     padding-top: 100px;
-
 }
 
 
