@@ -108,6 +108,7 @@
 .gradient {
 	background: -webkit-linear-gradient(#000000 , #003337 );
 	height: 100vh;
+	position: relative;
 }
 .bg-img {
 	background-image: url(../images/png01.png);
@@ -152,4 +153,15 @@
 	margin: 0px;
 	letter-spacing: 3px;
 	text-shadow: 1px 1px 8px #00FFFF;
+}
+
+
+.profile {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.profile img {
+	filter: hue-rotate(340deg);
 }
