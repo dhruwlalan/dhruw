@@ -52,10 +52,13 @@
 /*********************************************/
 
 
-/*body {
-	
-
-}*/
+* {
+	margin: 0;
+	padding: 0;
+}
+*::before , *::after {
+	box-sizing: border-box;
+}
 
 
 /*********************************************/
@@ -64,14 +67,24 @@
 	padding: 0rem;
 	background-color: black;
 }
+.navbar-brand {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 900;
+}
 .custom-nav .container a{
 	color: cyan;
 }
+.nav-item {
+	padding: 0px 12px;
+}
 .navbar-dark .navbar-nav .nav-link {
     color: cyan;
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 1rem;
-    font-weight: 100;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: white;
 }
 .navbar-dark .navbar-toggler {
     border-color: rgb(0, 190, 225);
@@ -79,16 +92,14 @@
 .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,255,249, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-
 .logo-brand {
 	
 	font-weight: 400;
 	font-size: 2rem;
 }
-
 @media (max-width: 768px) and (min-width: 200px) {
 	.container {
-    	width: 80%;
+    	width: 90%;
 	}
 }
 
@@ -96,7 +107,8 @@
 
 .gradient {
 	background: -webkit-linear-gradient(#000000 , #003337 );
-	height: 935px;
+	height: 100vh;
+	position: relative;
 }
 .bg-img {
 	background-image: url(../images/png01.png);
@@ -115,30 +127,41 @@
 }
 .section {
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 
 .main-text h4{
 	color: #14ffec;
+	font-family: 'Orbitron', sans-serif;
 	text-shadow: 1px 1px 8px #00FFFF;
 }
 .main-text h1{
-	font-family: 'Geo', sans-serif;
+	font-family: 'Orbitron', sans-serif;
 	letter-spacing: 5px;
 	color: #14ffec;
 	font-size: 84px;
-	font-weight: 500;
+	font-weight: 800;
 	margin: 0px;
 	margin-bottom: 50px;
 	text-shadow: 1px 1px 8px #00FFFF;
 }
 .main-text h3{
-	font-family: 'Electrolize', sans-serif;
+	font-family: 'Orbitron', sans-serif;
 	color: #14ffec;
-	max-width: 500px;
+	max-width: 400px;
 	font-size: 25px;
 	margin: 0px;
 	letter-spacing: 3px;
 	text-shadow: 1px 1px 8px #00FFFF;
+}
+
+
+.profile {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.profile img {
+	filter: hue-rotate(340deg);
 }
