@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "My Personal Site (bootstrap version)",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruwlalan/bootstrap-cv.git"
+  },
+  "author": "dhruw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhruwlalan/bootstrap-cv/issues"
+  },
+  "homepage": "https://github.com/dhruwlalan/bootstrap-cv#readme"
+}
