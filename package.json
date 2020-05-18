@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dhruwlalan/bootstrap-cv/issues"
   },
-  "homepage": "https://github.com/dhruwlalan/bootstrap-cv#readme"
+  "homepage": "https://github.com/dhruwlalan/bootstrap-cv#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
