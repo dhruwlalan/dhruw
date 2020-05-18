@@ -1,44 +1,50 @@
 
-.header {
+.navbar {
+	padding: 0rem;
+	background-color: $color-black;
+
+	&-brand {
+		font-family: $ff-orbitron;
+		font-weight: 900;
+	}
+
+}
+
+.navbar-dark {
 
 	.navbar {
-		padding: 0rem;
-		background-color: $color-black;
 
 		&-brand {
-			font-family: $ff-orbitron;
-			font-weight: 900;
-		}
+		    color: #fff;
+		}	
 		&__brand-logo {
 			color: $color-cyan;
 			font-weight: 400;
 			font-size: 3.2rem;
 		}
+		&-nav {
 
-		.collapse .navbar-nav{
+			.nav {
+				
+				&-item {
+					padding: 0px 1.2rem;
+				}
+				&-link {
+				    color: $color-cyan;
+				    font-family: $ff-electrolize;
+				    font-size: 1.75rem;
+				    font-weight: 500;
 
-			.nav-item {
-				padding: 0px 1.2rem;
-			}
-			.nav-link {
-			    color: $color-cyan;
-			    font-family: $ff-electrolize;
-			    font-size: 1.75rem;
-			    font-weight: 500;
+				    &:hover {
+				    	color: $color-white;
+				    }
 
-			    &:hover {
-			    	color: $color-white;
-			    }
+				}
 
 			}
 
 		}
-
-	}
-
-	.navbar-dark {
-
-		.navbar-toggler {
+		&-toggler {
 		    border-color: $color-bluecyan;
 
 		    &-icon {
@@ -50,3 +56,7 @@
 	}
 
 }
+
+
+
+

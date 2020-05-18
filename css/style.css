@@ -39,29 +39,35 @@ body {
   font-family: "Orbitron", sans-serif;
   text-shadow: 0.1rem 0.1rem 0.8rem cyan; }
 
-.header .navbar {
+.navbar {
   padding: 0rem;
   background-color: black; }
-  .header .navbar-brand {
+  .navbar-brand {
     font-family: "Orbitron", sans-serif;
     font-weight: 900; }
-  .header .navbar__brand-logo {
-    color: cyan;
-    font-weight: 400;
-    font-size: 3.2rem; }
-  .header .navbar .collapse .navbar-nav .nav-item {
-    padding: 0px 1.2rem; }
-  .header .navbar .collapse .navbar-nav .nav-link {
-    color: cyan;
-    font-family: "Electrolize", sans-serif;
-    font-size: 1.75rem;
-    font-weight: 500; }
-    .header .navbar .collapse .navbar-nav .nav-link:hover {
-      color: white; }
 
-.header .navbar-dark .navbar-toggler {
+.navbar-dark .navbar-brand {
+  color: #fff; }
+
+.navbar-dark .navbar__brand-logo {
+  color: cyan;
+  font-weight: 400;
+  font-size: 3.2rem; }
+
+.navbar-dark .navbar-nav .nav-item {
+  padding: 0px 1.2rem; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: cyan;
+  font-family: "Electrolize", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 500; }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: white; }
+
+.navbar-dark .navbar-toggler {
   border-color: #00bee1; }
-  .header .navbar-dark .navbar-toggler-icon {
+  .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,255,249, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 
 .gradient {
