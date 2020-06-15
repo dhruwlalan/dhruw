@@ -11,9 +11,10 @@
 @import "base/utilities";
 // @import "base/<here>";
 
+@import "components/container";
 // @import "components/<here>";
 
-@import "layout/header"; 
+@import "layout/main-header"; 
 // @import "layout/<here>";
 
 @import "pages/home";

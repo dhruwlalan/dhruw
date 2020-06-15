@@ -1,7 +1,3 @@
-@media (max-width: 768px) and (min-width: 200px) {
-  .container {
-    width: 90%; } }
-
 *,
 *::after,
 *::before {
@@ -15,77 +11,84 @@ html {
 body {
   box-sizing: border-box; }
 
-.gradient__text h1 {
+.header-navbar__nav-brand {
+  color: white;
   font-family: "Orbitron", sans-serif;
-  letter-spacing: .5rem;
+  font-size: 3.2rem;
+  font-weight: 900;
+  text-decoration: none; }
+
+.header-navbar__nav-link {
+  color: white;
+  font-family: "Quantico", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+  text-decoration: none; }
+
+.header-main__content h1 {
   color: cyan;
+  font-family: "Orbitron", sans-serif;
   font-size: 8.4rem;
   font-weight: 800;
-  margin: 0rem;
-  margin-bottom: 5rem;
+  letter-spacing: .5rem;
   text-shadow: 0.1rem 0.1rem 0.8rem cyan; }
 
-.gradient__text h3 {
-  font-family: "Orbitron", sans-serif;
-  color: cyan;
-  max-width: 40rem;
-  font-size: 2.5rem;
-  margin: 0rem;
-  letter-spacing: .3rem;
-  text-shadow: 0.1rem 0.1rem 0.8rem cyan; }
-
-.gradient__text h4 {
+.header-main__content h4 {
   color: cyan;
   font-family: "Orbitron", sans-serif;
+  font-size: 2rem;
   text-shadow: 0.1rem 0.1rem 0.8rem cyan; }
 
-.header .navbar {
-  padding: 0rem;
-  background-color: black; }
-  .header .navbar-brand {
-    font-family: "Orbitron", sans-serif;
-    font-weight: 900; }
-  .header .navbar__brand-logo {
-    color: cyan;
-    font-weight: 400;
-    font-size: 3.2rem; }
-  .header .navbar .collapse .navbar-nav .nav-item {
-    padding: 0px 1.2rem; }
-  .header .navbar .collapse .navbar-nav .nav-link {
-    color: cyan;
-    font-family: "Electrolize", sans-serif;
-    font-size: 1.75rem;
-    font-weight: 500; }
-    .header .navbar .collapse .navbar-nav .nav-link:hover {
-      color: white; }
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  height: 100%; }
 
-.header .navbar-dark .navbar-toggler {
-  border-color: #00bee1; }
-  .header .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,255,249, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
-
-.gradient {
-  background: -webkit-linear-gradient(#000000, #003337);
+.header {
+  background-image: url("../images/png01.png"), -webkit-linear-gradient(#000000, #003337);
   height: 100vh;
+  background-size: cover;
+  background-position: center center;
   position: relative; }
-  .gradient__section {
-    padding-top: 10rem; }
-  .gradient .bg-img {
-    background-image: url(../images/png01.png);
-    height: inherit;
-    position: relative;
-    background-size: cover;
-    background-position: center center; }
-  .gradient__table {
-    padding-top: 10rem;
-    width: 100%;
+
+.header-navbar {
+  height: 5rem;
+  padding: 0 2rem;
+  background-color: #000000ad;
+  top: 0; }
+  .header-navbar__nav {
+    display: flex;
+    justify-content: space-between;
     height: 100%; }
-    .gradient__table--center {
-      vertical-align: middle; }
-  .gradient .profile {
+    .header-navbar__nav-brand {
+      display: flex;
+      align-items: center; }
+    .header-navbar__nav-list {
+      display: flex; }
+    .header-navbar__nav-item {
+      display: flex;
+      align-items: center;
+      list-style-type: none;
+      padding: 0px 1.2rem; }
+
+.header-main {
+  height: 50%; }
+  .header-main__profile {
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%); }
-    .gradient .profile img {
-      filter: hue-rotate(340deg); }
+  .header-main__content {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; }
+    .header-main__content h1 {
+      margin: 0rem;
+      margin-bottom: 5rem; }
+
+.main {
+  height: 200vh; }
