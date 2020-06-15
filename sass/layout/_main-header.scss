@@ -1,0 +1,41 @@
+
+.header {
+	background-image: url('../images/png01.png'), -webkit-linear-gradient(#000000 , #003337 );
+	height: 100vh;
+	background-size: cover;
+	background-position: center center;
+}
+
+.header-navbar {
+	height: 5rem;
+	padding: 0 2rem;
+	background-color: #000000ad;
+
+	&__nav {
+		display: flex;
+		justify-content: space-between;
+		height: 100%;
+
+		&-brand {
+			display: flex;
+			align-items: center;
+
+		}
+		&-list {
+			display: flex;
+		}
+		&-item {
+			display: flex;
+			align-items: center;
+			list-style-type: none;
+			padding: 0px 1.2rem;
+		}
+		&-link {
+
+		}
+	}
+}
+
+.header-main {
+
+}
