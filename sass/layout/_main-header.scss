@@ -1,17 +1,23 @@
 
 .header {
-	background-image: url('../images/png01.png'), -webkit-linear-gradient(#000000 , #003337 );
-	height: 100vh;
-	background-size: cover;
-	background-position: center center;
+
 	position: relative;
 }
 
 .header-navbar {
-	height: 5rem;
+	height: 8.5rem;
+	background-color: transparent;
+	width: 100vw;
 	padding: 0 2rem;
-	background-color: #000000ad;
+	position: fixed;
+	z-index: 100;
 	top: 0;
+	transition: height 0.5s ease-in-out, background-color 0.5s ease-in-out;
+
+	&--sticky {
+		height: 7rem;
+		background-color: #00ffde;
+	}
 
 	&__nav {
 		display: flex;
@@ -21,51 +27,49 @@
 		&-brand {
 			display: flex;
 			align-items: center;
-
 		}
+
 		&-list {
 			display: flex;
 		}
+
 		&-item {
 			display: flex;
 			align-items: center;
 			list-style-type: none;
 			padding: 0px 1.2rem;
 		}
-		&-link {
 
+		&-link {
+			transition: all .2s ease-out;
 		}
 	}
 }
 
 .header-main {
-	height: 50%;
-
-	&__profile {
-		position: absolute;
-	    bottom: 0;
-	    left: 50%;
-	    transform: translateX(-50%);
-	}
+	background-image: url('../images/png01.png'), -webkit-radial-gradient(30% 25%, #000000, #003337);
+	background-size: cover;
+	background-position: center center;
 
 	&__content {
 		display: flex;
-		height: 100%;
+		height: 50%;
 		width: 50%;
 		margin: 0 auto;
 		flex-direction: column;
 		justify-content: center;
 		align-items: flex-start;
+	}  
 
-		h1{
-			margin: 0rem;
-			margin-bottom: 5rem;
-		}
-		h4{
-		}
+	&__profile img {
+		position: absolute;
+	    bottom: 0;
+	    left: 50%;
+	    transform: translateX(-50%);
 	}
 }
 
 .main {
+	
 	height: 200vh;
 }

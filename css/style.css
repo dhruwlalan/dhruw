@@ -11,19 +11,32 @@ html {
 body {
   box-sizing: border-box; }
 
+.header-navbar--sticky {
+  height: 7rem; }
+  .header-navbar--sticky .header-navbar__nav-brand {
+    color: black; }
+  .header-navbar--sticky .header-navbar__nav-link {
+    color: black; }
+    .header-navbar--sticky .header-navbar__nav-link:hover {
+      color: #000898;
+      transform: translateY(-0.2rem); }
+
 .header-navbar__nav-brand {
   color: white;
   font-family: "Orbitron", sans-serif;
-  font-size: 3.2rem;
+  font-size: 3.5rem;
   font-weight: 900;
   text-decoration: none; }
 
 .header-navbar__nav-link {
   color: white;
-  font-family: "Quantico", sans-serif;
-  font-size: 1.75rem;
-  font-weight: 500;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.8rem;
+  font-weight: 400;
   text-decoration: none; }
+  .header-navbar__nav-link:hover {
+    color: cyan;
+    transform: translateY(-0.2rem); }
 
 .header-main__content h1 {
   color: cyan;
@@ -44,18 +57,25 @@ body {
   margin: 0 auto;
   height: 100%; }
 
-.header {
-  background-image: url("../images/png01.png"), -webkit-linear-gradient(#000000, #003337);
+.section {
   height: 100vh;
-  background-size: cover;
-  background-position: center center;
+  padding: 8rem 0; }
+
+.header {
   position: relative; }
 
 .header-navbar {
-  height: 5rem;
+  height: 8.5rem;
+  background-color: transparent;
+  width: 100vw;
   padding: 0 2rem;
-  background-color: #000000ad;
-  top: 0; }
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  transition: height 0.5s ease-in-out, background-color 0.5s ease-in-out; }
+  .header-navbar--sticky {
+    height: 7rem;
+    background-color: #00ffde; }
   .header-navbar__nav {
     display: flex;
     justify-content: space-between;
@@ -70,25 +90,26 @@ body {
       align-items: center;
       list-style-type: none;
       padding: 0px 1.2rem; }
+    .header-navbar__nav-link {
+      transition: all .2s ease-out; }
 
 .header-main {
-  height: 50%; }
-  .header-main__profile {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%); }
+  background-image: url("../images/png01.png"), -webkit-radial-gradient(30% 25%, #000000, #003337);
+  background-size: cover;
+  background-position: center center; }
   .header-main__content {
     display: flex;
-    height: 100%;
+    height: 50%;
     width: 50%;
     margin: 0 auto;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start; }
-    .header-main__content h1 {
-      margin: 0rem;
-      margin-bottom: 5rem; }
+  .header-main__profile img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); }
 
 .main {
   height: 200vh; }

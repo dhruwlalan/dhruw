@@ -1,26 +1,51 @@
 
+// header
 .header-navbar {
+
+	&--sticky {
+		height: 7rem;
+
+		.header-navbar__nav {
+
+			&-brand {
+				color: black;
+			}
+
+			&-link {
+				color: black;
+
+				&:hover {
+					color: #000898;
+					transform: translateY(-0.2rem);
+				}
+			}
+		}
+	}
 
 	&__nav {
 
 		&-brand {
 			color: white;
-			font-family: "Orbitron", sans-serif;
-		    font-size: 3.2rem;
+			font-family: $ff-orbitron;
+		    font-size: 3.5rem;
 		    font-weight: 900;
 			text-decoration: none;
 		}
 
 		&-link {
 			color: white;
-			font-family: $ff-quantico;
-		    font-size: 1.75rem;
-		    font-weight: 500;
+			font-family: $ff-robotoMono;
+		    font-size: 1.8rem;
+		    font-weight: 400;
 			text-decoration: none;
+
+			&:hover {
+				color: cyan;
+				transform: translateY(-0.2rem);
+			}
 		}
 	}
 }
-
 
 .header-main {
 
@@ -34,6 +59,7 @@
 			letter-spacing: .5rem;
 			text-shadow: .1rem .1rem .8rem $color-cyan;
 		}
+
 		h4{
 			color: $color-cyan;
 			font-family: $ff-orbitron;
