@@ -5,11 +5,19 @@
 }
 
 .header-navbar {
-	height: 5rem;
+	height: 8.5rem;
+	background-color: transparent;
 	width: 100vw;
 	padding: 0 2rem;
 	position: fixed;
+	z-index: 100;
 	top: 0;
+	transition: height 0.5s ease-in-out, background-color 0.5s ease-in-out;
+
+	&--sticky {
+		height: 7rem;
+		background-color: #00ffde;
+	}
 
 	&__nav {
 		display: flex;
@@ -33,13 +41,13 @@
 		}
 
 		&-link {
-
+			transition: all .2s ease-out;
 		}
 	}
 }
 
 .header-main {
-	background-image: url('../images/png01.png'), -webkit-linear-gradient(#000000 , #003337);
+	background-image: url('../images/png01.png'), -webkit-radial-gradient(30% 25%, #000000, #003337);
 	background-size: cover;
 	background-position: center center;
 
