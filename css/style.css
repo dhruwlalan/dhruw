@@ -84,7 +84,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start; }
-  .header-main__profile {
+  .header-main__profile img {
     position: absolute;
     bottom: 0;
     left: 50%;
