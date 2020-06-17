@@ -5,8 +5,8 @@
 }
 
 .header-navbar {
-	height: 8.5rem;
 	background-color: transparent;
+	height: 8rem;
 	width: 100vw;
 	padding: 0 2rem;
 	position: fixed;
@@ -17,6 +17,24 @@
 	&--sticky {
 		height: 7rem;
 		background-color: #00ffde;
+
+		.header-navbar__nav {
+			
+			&-link {
+				height: 4rem;
+				transition: height 0.5s ease-in-out;
+
+				&--bottom {
+					margin-top: 0rem;
+					transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out;
+				}
+
+				&:hover .header-navbar__nav-link--bottom {
+					background-color: #000898;
+					transform: scaleX(1);
+				}
+			}
+		}
 	}
 
 	&__nav {
@@ -41,13 +59,37 @@
 		}
 
 		&-link {
-			transition: all .2s ease-out;
+			display: flex;
+			height: 4.5rem;
+			flex-direction: column;
+			justify-content: flex-end;
+			transition: height 0.5s ease-in-out;
+
+			&--content {
+				transition: all .3s ease-out;
+
+				&:hover {
+					transform: translateY(-0.2rem);
+				}
+			}
+
+			&--bottom {
+				margin-top: .5rem;
+				height: 3px;
+				background-color: cyan;
+				transform: scaleX(0);
+				transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out;
+			}
+
+			&:hover &--bottom {
+				transform: scaleX(1);
+			}
 		}
 	}
 }
 
 .header-main {
-	background-image: url('../images/png01.png'), -webkit-radial-gradient(30% 25%, #000000, #003337);
+	background-image: url('../images/png01.png'), -webkit-radial-gradient(42% 33%, #000000, #003337);
 	background-size: cover;
 	background-position: center center;
 
