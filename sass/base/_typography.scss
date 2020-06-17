@@ -10,13 +10,15 @@
 			&-brand {
 				color: black;
 			}
-
 			&-link {
-				color: black;
 
-				&:hover {
+				&--content {
+					color: black;
+					transition: all .3s ease-out;
+				}
+
+				&:hover .header-navbar__nav-link--content {
 					color: #000898;
-					transform: translateY(-0.2rem);
 				}
 			}
 		}
@@ -33,15 +35,16 @@
 		}
 
 		&-link {
-			color: white;
-			font-family: $ff-robotoMono;
-		    font-size: 1.8rem;
-		    font-weight: 400;
 			text-decoration: none;
 
-			&:hover {
+			&--content {
+				color: white;
+				font-family: $ff-robotoMono;
+			    font-size: 1.8rem;
+			    font-weight: 400;
+			}
+			&:hover &--content {
 				color: cyan;
-				transform: translateY(-0.2rem);
 			}
 		}
 	}
