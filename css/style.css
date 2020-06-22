@@ -11,47 +11,6 @@ html {
 body {
   box-sizing: border-box; }
 
-.header-navbar--sticky {
-  height: 7rem; }
-  .header-navbar--sticky .header-navbar__nav-brand {
-    color: black; }
-  .header-navbar--sticky .header-navbar__nav-link--content {
-    color: black;
-    transition: all .3s ease-out; }
-  .header-navbar--sticky .header-navbar__nav-link:hover .header-navbar__nav-link--content {
-    color: #000898; }
-
-.header-navbar__nav-brand {
-  color: white;
-  font-family: "Orbitron", sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  text-decoration: none; }
-
-.header-navbar__nav-link {
-  text-decoration: none; }
-  .header-navbar__nav-link--content {
-    color: white;
-    font-family: "Roboto Mono", monospace;
-    font-size: 1.8rem;
-    font-weight: 400; }
-  .header-navbar__nav-link:hover .header-navbar__nav-link--content {
-    color: cyan; }
-
-.header-main__content h1 {
-  color: cyan;
-  font-family: "Orbitron", sans-serif;
-  font-size: 8.4rem;
-  font-weight: 800;
-  letter-spacing: .5rem;
-  text-shadow: 0.1rem 0.1rem 0.8rem cyan; }
-
-.header-main__content h4 {
-  color: cyan;
-  font-family: "Orbitron", sans-serif;
-  font-size: 2rem;
-  text-shadow: 0.1rem 0.1rem 0.8rem cyan; }
-
 .container {
   max-width: 120rem;
   margin: 0 auto;
@@ -76,12 +35,19 @@ body {
   .header-navbar--sticky {
     height: 7rem;
     background-color: #00ffde; }
+    .header-navbar--sticky .header-navbar__nav-brand {
+      color: black; }
     .header-navbar--sticky .header-navbar__nav-link {
-      height: 4rem;
+      height: 3.2rem;
       transition: height 0.5s ease-in-out; }
+      .header-navbar--sticky .header-navbar__nav-link--content {
+        color: black;
+        transition: all .3s ease-out; }
       .header-navbar--sticky .header-navbar__nav-link--bottom {
         margin-top: 0rem;
         transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out; }
+      .header-navbar--sticky .header-navbar__nav-link:hover .header-navbar__nav-link--content {
+        color: #000898; }
       .header-navbar--sticky .header-navbar__nav-link:hover .header-navbar__nav-link--bottom {
         background-color: #000898;
         transform: scaleX(1); }
@@ -90,6 +56,11 @@ body {
     justify-content: space-between;
     height: 100%; }
     .header-navbar__nav-brand {
+      color: white;
+      font-family: "Orbitron", sans-serif;
+      font-weight: 900;
+      font-size: 3.5rem;
+      text-decoration: none;
       display: flex;
       align-items: center; }
     .header-navbar__nav-list {
@@ -104,8 +75,13 @@ body {
       height: 4.5rem;
       flex-direction: column;
       justify-content: flex-end;
-      transition: height 0.5s ease-in-out; }
+      transition: height 0.5s ease-in-out;
+      text-decoration: none; }
       .header-navbar__nav-link--content {
+        color: white;
+        font-family: "Roboto Mono", monospace;
+        font-weight: 400;
+        font-size: 1.8rem;
         transition: all .3s ease-out; }
         .header-navbar__nav-link--content:hover {
           transform: translateY(-0.2rem); }
@@ -115,6 +91,8 @@ body {
         background-color: cyan;
         transform: scaleX(0);
         transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out; }
+      .header-navbar__nav-link:hover .header-navbar__nav-link--content {
+        color: cyan; }
       .header-navbar__nav-link:hover .header-navbar__nav-link--bottom {
         transform: scaleX(1); }
 
@@ -130,6 +108,19 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start; }
+    .header-main__content h1 {
+      color: cyan;
+      font-family: "Orbitron", sans-serif;
+      font-weight: 800;
+      font-size: 8.4rem;
+      letter-spacing: .5rem;
+      text-shadow: 0.1rem 0.1rem 0.8rem cyan; }
+    .header-main__content h4 {
+      color: cyan;
+      font-family: "Orbitron", sans-serif;
+      font-weight: 400;
+      font-size: 2rem;
+      text-shadow: 0.1rem 0.1rem 0.8rem cyan; }
   .header-main__profile img {
     position: absolute;
     bottom: 0;
