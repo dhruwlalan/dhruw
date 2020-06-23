@@ -5,3 +5,15 @@
 	font-weight: $font-weight;
 	font-size: $font-size;
 }
+
+@mixin media-max-width($break-point) {
+	@media(max-width: $break-point) {
+		@content;
+	}
+}
+
+@mixin media-min-width($break-point) {
+	@media(min-width: $break-point * 1px) {
+		@content;
+	}
+}
