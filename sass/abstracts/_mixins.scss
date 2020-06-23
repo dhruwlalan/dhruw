@@ -7,7 +7,7 @@
 }
 
 @mixin media-max-width($break-point) {
-	@media(max-width: $break-point) {
+	@media(max-width: $break-point * 1px) {
 		@content;
 	}
 }
