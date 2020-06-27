@@ -5,7 +5,7 @@
 
 .header-navbar {
 	background-color: transparent;
-	@include boxm( 8rem , 100vw , 0 2rem , 0);
+	@include box( 8rem , 100vw , 0 2rem , 0);
 	@include pos-fixed( 0 , auto , auto , auto );
 	z-index: 100;
 	transition: height 0.5s ease-in-out, background-color 0.5s ease-in-out;
@@ -13,7 +13,7 @@
 	&__nav {
 		display: flex;
 		justify-content: space-between;
-		height: 100%;
+		@include box( 100% , auto , 0 , 0 );
 
 		&-brand {
 			@include typo( white , $ff-orbitron , 900 , 3.5rem );
