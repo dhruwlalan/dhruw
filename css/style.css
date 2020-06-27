@@ -97,7 +97,7 @@ body {
         transform: scaleX(1); }
 
 .header-main {
-  background-image: url("../images/png01.png"), -webkit-radial-gradient(42% 33%, #000000, #003337);
+  background-image: url("../images/background.png"), -webkit-radial-gradient(42% 33%, #000000, #003337);
   background-size: cover;
   background-position: center center; }
   .header-main__content {
@@ -129,3 +129,5 @@ body {
 
 .main {
   height: 200vh; }
+
+/*# sourceMappingURL=style.css.map */
