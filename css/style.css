@@ -24,21 +24,14 @@ body {
   height: 8rem;
   width: 100vw;
   padding: 0 2rem;
-  margin: 0;
   position: fixed;
   top: 0;
-  bottom: auto;
-  left: auto;
-  right: auto;
   z-index: 100;
   transition: height 0.5s ease-in-out, background-color 0.5s ease-in-out; }
   .header-navbar__nav {
     display: flex;
     justify-content: space-between;
-    height: 100%;
-    width: auto;
-    padding: 0;
-    margin: 0; }
+    height: 100%; }
     .header-navbar__nav-brand {
       color: white;
       font-family: "Orbitron", sans-serif;
@@ -53,7 +46,7 @@ body {
       display: flex;
       align-items: center;
       list-style-type: none;
-      padding: 0px 1.2rem; }
+      padding: 0 1.2rem; }
     .header-navbar__nav-link {
       display: flex;
       flex-direction: column;
