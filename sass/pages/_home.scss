@@ -1,20 +1,19 @@
 
 .section-home {
 	background: {
-		image: url('../images/background.png'), -webkit-radial-gradient(42% 33%, #000000, #003337);
+		image: url('../images/background.png'), -webkit-radial-gradient(42% 30%, #000000, #003337);
 		size: cover;
 		position: center center;
 	}
-	height: 100vh;
+	@include size( /*h*/ 100vh , /*w*/ null );
 
 	&__content {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: flex-start;
-		height: 50%;
-		width: 50%;
-		margin: 0 auto;
+		@include size( /*h*/ 50% , /*w*/ 50% );
+		@include pbm( /*p*/ null , /*b*/ null , /*m*/ 0 auto );
 
 		h1 {
 			@include typo( $color-cyan , $ff-orbitron , 800 , 8.4rem );
@@ -29,9 +28,7 @@
 	}  
 
 	&__profile img {
-		position: absolute;
-	    left: 50%;
-	    bottom: 0;
+		@include pos-absolute( /*t*/ null , /*b*/ 0 , /*l*/ 50% , /*r*/ null );
 	    transform: translateX(-50%);
 	}
 }

@@ -7,7 +7,7 @@
 	background-color: transparent;
 	@include size( /*h*/ 8rem , /*w*/ 100vw );
 	@include pbm( /*p*/ 0 2rem , /*b*/ null , /*m*/ null );
-	@include pos-fixed( 0 , null , null , null );
+	@include pos-fixed( /*t*/ 0 , /*b*/ null , /*l*/ null , /*r*/ null );
 	z-index: 100;
 	transition: height 0.5s ease-in-out, background-color 0.5s ease-in-out;
 
@@ -38,7 +38,7 @@
 			display: flex;
 			flex-direction: column;
 			justify-content: flex-end;
-			height: 4.5rem;
+			@include size( /*h*/ 4.5rem , /*w*/ null );
 			text-decoration: none;
 			transition: height 0.5s ease-in-out;
 
@@ -52,15 +52,15 @@
 			}
 
 			&--bottom {
-				background-color: cyan;
-				height: 3px;
-				margin-top: .5rem;
+				background-color: $color-cyan;
+				@include size( /*h*/ 3px , /*w*/ null );
+				@include pbm( /*p*/ null , /*b*/ null , /*m*/ .4rem 0 0 );
 				transform: scaleX(0);
 				transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out;
 			}
 
 			&:hover &--content {
-				color: cyan;
+				color: $color-cyan;
 			}
 			&:hover &--bottom {
 				transform: scaleX(1);
@@ -70,7 +70,7 @@
 
 	&--sticky {
 		background-color: #00ffde;
-		height: 7rem;
+		@include size( /*h*/ 7rem , /*w*/ null );
 
 		.header-navbar__nav {
 			
@@ -79,7 +79,7 @@
 			}
 			
 			&-link {
-				height: 3.2rem;
+				@include size( /*h*/ 3.2rem , /*w*/ null );
 				transition: height 0.5s ease-in-out;
 
 				&--content {
@@ -95,7 +95,6 @@
 				&:hover .header-navbar__nav-link--content {
 					color: #000898;
 				}
-
 				&:hover .header-navbar__nav-link--bottom {
 					background-color: #000898;
 					transform: scaleX(1);
