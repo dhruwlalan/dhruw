@@ -16,10 +16,6 @@ body {
   margin: 0 auto;
   height: 100%; }
 
-.section {
-  height: 100vh;
-  padding: 9rem 0; }
-
 .header {
   position: relative; }
 
@@ -29,28 +25,9 @@ body {
   width: 100vw;
   padding: 0 2rem;
   position: fixed;
-  z-index: 100;
   top: 0;
+  z-index: 100;
   transition: height 0.5s ease-in-out, background-color 0.5s ease-in-out; }
-  .header-navbar--sticky {
-    height: 7rem;
-    background-color: #00ffde; }
-    .header-navbar--sticky .header-navbar__nav-brand {
-      color: black; }
-    .header-navbar--sticky .header-navbar__nav-link {
-      height: 3.2rem;
-      transition: height 0.5s ease-in-out; }
-      .header-navbar--sticky .header-navbar__nav-link--content {
-        color: black;
-        transition: all .3s ease-out; }
-      .header-navbar--sticky .header-navbar__nav-link--bottom {
-        margin-top: 0rem;
-        transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out; }
-      .header-navbar--sticky .header-navbar__nav-link:hover .header-navbar__nav-link--content {
-        color: #000898; }
-      .header-navbar--sticky .header-navbar__nav-link:hover .header-navbar__nav-link--bottom {
-        background-color: #000898;
-        transform: scaleX(1); }
   .header-navbar__nav {
     display: flex;
     justify-content: space-between;
@@ -72,11 +49,11 @@ body {
       padding: 0px 1.2rem; }
     .header-navbar__nav-link {
       display: flex;
-      height: 4.5rem;
       flex-direction: column;
       justify-content: flex-end;
-      transition: height 0.5s ease-in-out;
-      text-decoration: none; }
+      height: 4.5rem;
+      text-decoration: none;
+      transition: height 0.5s ease-in-out; }
       .header-navbar__nav-link--content {
         color: white;
         font-family: "Roboto Mono", monospace;
@@ -86,48 +63,66 @@ body {
         .header-navbar__nav-link--content:hover {
           transform: translateY(-0.2rem); }
       .header-navbar__nav-link--bottom {
-        margin-top: .5rem;
-        height: 3px;
         background-color: cyan;
+        height: 3px;
+        margin-top: .5rem;
         transform: scaleX(0);
         transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out; }
       .header-navbar__nav-link:hover .header-navbar__nav-link--content {
         color: cyan; }
       .header-navbar__nav-link:hover .header-navbar__nav-link--bottom {
         transform: scaleX(1); }
+  .header-navbar--sticky {
+    background-color: #00ffde;
+    height: 7rem; }
+    .header-navbar--sticky .header-navbar__nav-brand {
+      color: black; }
+    .header-navbar--sticky .header-navbar__nav-link {
+      height: 3.2rem;
+      transition: height 0.5s ease-in-out; }
+      .header-navbar--sticky .header-navbar__nav-link--content {
+        color: black;
+        transition: all .3s ease-out; }
+      .header-navbar--sticky .header-navbar__nav-link--bottom {
+        margin-top: 0rem;
+        transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out; }
+      .header-navbar--sticky .header-navbar__nav-link:hover .header-navbar__nav-link--content {
+        color: #000898; }
+      .header-navbar--sticky .header-navbar__nav-link:hover .header-navbar__nav-link--bottom {
+        background-color: #000898;
+        transform: scaleX(1); }
 
-.header-main {
+.section-home {
   background-image: url("../images/background.png"), -webkit-radial-gradient(42% 33%, #000000, #003337);
   background-size: cover;
-  background-position: center center; }
-  .header-main__content {
+  background-position: center center;
+  height: 100vh; }
+  .section-home__content {
     display: flex;
-    height: 50%;
-    width: 50%;
-    margin: 0 auto;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start; }
-    .header-main__content h1 {
+    align-items: flex-start;
+    height: 50%;
+    width: 50%;
+    margin: 0 auto; }
+    .section-home__content h1 {
       color: cyan;
       font-family: "Orbitron", sans-serif;
       font-weight: 800;
       font-size: 8.4rem;
       letter-spacing: .5rem;
       text-shadow: 0.1rem 0.1rem 0.8rem cyan; }
-    .header-main__content h4 {
+    .section-home__content h4 {
       color: cyan;
       font-family: "Orbitron", sans-serif;
       font-weight: 400;
       font-size: 2rem;
       text-shadow: 0.1rem 0.1rem 0.8rem cyan; }
-  .header-main__profile img {
+  .section-home__profile img {
     position: absolute;
-    bottom: 0;
     left: 50%;
+    bottom: 0;
     transform: translateX(-50%); }
 
 .main {
   height: 200vh; }
-
-/*# sourceMappingURL=style.css.map */

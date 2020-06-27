@@ -1,0 +1,41 @@
+
+.section-home {
+	background: {
+		image: url('../images/background.png'), -webkit-radial-gradient(42% 33%, #000000, #003337);
+		size: cover;
+		position: center center;
+	}
+	height: 100vh;
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		height: 50%;
+		width: 50%;
+		margin: 0 auto;
+
+		h1 {
+			@include typo( $color-cyan , $ff-orbitron , 800 , 8.4rem );
+			letter-spacing: .5rem;
+			text-shadow: .1rem .1rem .8rem $color-cyan;
+		}
+
+		h4 {
+			@include typo( $color-cyan , $ff-orbitron , 400 , 2rem );
+			text-shadow: .1rem .1rem .8rem $color-cyan;
+		}
+	}  
+
+	&__profile img {
+		position: absolute;
+	    left: 50%;
+	    bottom: 0;
+	    transform: translateX(-50%);
+	}
+}
+
+.main {
+	height: 200vh;
+}
