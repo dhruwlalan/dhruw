@@ -65,7 +65,7 @@ body {
       .header-navbar__nav-link--bottom {
         background-color: cyan;
         height: 3px;
-        margin-top: .5rem;
+        margin: 0.4rem 0 0;
         transform: scaleX(0);
         transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out; }
       .header-navbar__nav-link:hover .header-navbar__nav-link--content {
@@ -93,7 +93,7 @@ body {
         transform: scaleX(1); }
 
 .section-home {
-  background-image: url("../images/background.png"), -webkit-radial-gradient(42% 33%, #000000, #003337);
+  background-image: url("../images/background.png"), -webkit-radial-gradient(42% 30%, #000000, #003337);
   background-size: cover;
   background-position: center center;
   height: 100vh; }
@@ -120,8 +120,8 @@ body {
       text-shadow: 0.1rem 0.1rem 0.8rem cyan; }
   .section-home__profile img {
     position: absolute;
-    left: 50%;
     bottom: 0;
+    left: 50%;
     transform: translateX(-50%); }
 
 .main {
