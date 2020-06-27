@@ -1,0 +1,6 @@
+
+.container {
+	max-width: 120rem;
+	@include size( /*h*/ 100% , /*w*/ null );
+	@include pbm( /*p*/ null , /*b*/ null , /*m*/ 0 auto );
+}
