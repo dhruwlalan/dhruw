@@ -60,8 +60,6 @@ body {
         font-weight: 400;
         font-size: 1.8rem;
         transition: all .3s ease-out; }
-        .header-navbar__nav-link--content:hover {
-          transform: translateY(-0.2rem); }
       .header-navbar__nav-link--bottom {
         background-color: cyan;
         height: 3px;
@@ -69,6 +67,7 @@ body {
         transform: scaleX(0);
         transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out; }
       .header-navbar__nav-link:hover .header-navbar__nav-link--content {
+        transform: translateY(-0.2rem);
         color: cyan; }
       .header-navbar__nav-link:hover .header-navbar__nav-link--bottom {
         transform: scaleX(1); }
@@ -84,12 +83,12 @@ body {
         color: black;
         transition: all .3s ease-out; }
       .header-navbar--sticky .header-navbar__nav-link--bottom {
+        background-color: #00575d;
         margin-top: 0rem;
         transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out; }
       .header-navbar--sticky .header-navbar__nav-link:hover .header-navbar__nav-link--content {
-        color: #000898; }
+        color: black; }
       .header-navbar--sticky .header-navbar__nav-link:hover .header-navbar__nav-link--bottom {
-        background-color: #000898;
         transform: scaleX(1); }
 
 .section-home {
@@ -126,3 +125,5 @@ body {
 
 .main {
   height: 200vh; }
+
+/*# sourceMappingURL=style.css.map */
