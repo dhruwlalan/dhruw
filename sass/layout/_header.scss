@@ -5,22 +5,18 @@
 
 .header-navbar {
 	background-color: transparent;
-	@include size( /*h*/ 8rem , /*w*/ 100vw );
-	@include pbm( /*p*/ 0 2rem , /*b*/ null , /*m*/ null );
-	@include pos-fixed( /*t*/ 0 , /*b*/ null , /*l*/ null , /*r*/ null );
-	z-index: 100;
+	@include box( /*h*/ 8rem , /*w*/ 100vw , /*p*/ 0 2rem , /*b*/ null , /*m*/ null );
+	@include pos-fixed( /*t*/ 0 , /*b*/ null , /*l*/ null , /*r*/ null , /*z*/ 100 );
 	transition: height 0.5s ease-in-out, background-color 0.5s ease-in-out;
 
 	&__nav {
-		display: flex;
-		justify-content: space-between;
+		@include flexbox( /*fd*/ null , /*jc*/ space-between , /*ai*/ null );
 		@include size( /*h*/ 100% , /*w*/ null );
 
 		&-brand {
 			@include typo( white , $ff-orbitron , 900 , 3.5rem );
+			@include flexbox( /*fd*/ null , /*jc*/ null , /*ai*/ center );
 			text-decoration: none;
-			display: flex;
-			align-items: center;
 		}
 
 		&-list {
@@ -28,16 +24,13 @@
 		}
 
 		&-item {
-			display: flex;
-			align-items: center;
+			@include flexbox( /*fd*/ null , /*jc*/ null , /*ai*/ center );
 			list-style-type: none;
-			@include pbm( /*p*/ 0 1.2rem , /*b*/ null , /*m*/ null );
+			padding: 0 1.2rem;
 		}
 
 		&-link {
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-end;
+			@include flexbox( /*fd*/ column , /*jc*/ flex-end , /*ai*/ null );
 			@include size( /*h*/ 4.5rem , /*w*/ null );
 			text-decoration: none;
 			transition: height 0.5s ease-in-out;
@@ -49,8 +42,7 @@
 
 			&--bottom {
 				background-color: $color-cyan;
-				@include size( /*h*/ 3px , /*w*/ null );
-				@include pbm( /*p*/ null , /*b*/ null , /*m*/ .4rem 0 0 );
+				@include box( /*h*/ 3px , /*w*/ null , /*p*/ null , /*b*/ null , /*m*/ .4rem 0 0 );
 				transform: scaleX(0);
 				transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out;
 			}

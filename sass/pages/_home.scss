@@ -8,12 +8,8 @@
 	@include size( /*h*/ 100vh , /*w*/ null );
 
 	&__content {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: flex-start;
-		@include size( /*h*/ 50% , /*w*/ 50% );
-		@include pbm( /*p*/ null , /*b*/ null , /*m*/ 0 auto );
+		@include flexbox( /*fd*/ column , /*jc*/ center , /*ai*/ flex-start );
+		@include box( /*h*/ 50% , /*w*/ 50% , /*p*/ null , /*b*/ null , /*m*/ 0 auto );
 
 		h1 {
 			@include typo( $color-cyan , $ff-orbitron , 800 , 8.4rem );
@@ -28,11 +24,11 @@
 	}  
 
 	&__profile img {
-		@include pos-absolute( /*t*/ null , /*b*/ 0 , /*l*/ 50% , /*r*/ null );
+		@include pos-absolute( /*t*/ null , /*b*/ 0 , /*l*/ 50% , /*r*/ null , /*z*/ null );
 	    transform: translateX(-50%);
 	}
 }
 
 .main {
-	height: 200vh;
+	@include size( /*h*/ 200vh , /*w*/ null );
 }
