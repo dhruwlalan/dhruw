@@ -8,7 +8,7 @@
 	@include size( /*h*/ 100vh , /*w*/ null );
 
 	&__content {
-		@include flexbox( /*fd*/ column , /*jc*/ center , /*ai*/ flex-start );
+		@include flex( /*fd*/ column , /*jc*/ center , /*ai*/ flex-start );
 		@include box( /*h*/ 50% , /*w*/ 50% , /*p*/ null , /*b*/ null , /*m*/ 0 auto );
 
 		h1 {

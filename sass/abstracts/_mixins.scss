@@ -113,7 +113,7 @@
 	}
 }
 
-@mixin flexbox( $flexdirection , $justifycontent , $alignitems ) {
+@mixin flex( $flexdirection , $justifycontent , $alignitems ) {
 	display: flex;
 	@if $flexdirection != null {
 		flex-direction: $flexdirection;

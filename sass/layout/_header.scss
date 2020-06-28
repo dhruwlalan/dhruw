@@ -10,12 +10,12 @@
 	transition: height 0.5s ease-in-out, background-color 0.5s ease-in-out;
 
 	&__nav {
-		@include flexbox( /*fd*/ null , /*jc*/ space-between , /*ai*/ null );
+		@include flex( /*fd*/ null , /*jc*/ space-between , /*ai*/ null );
 		@include size( /*h*/ 100% , /*w*/ null );
 
 		&-brand {
 			@include typo( white , $ff-orbitron , 900 , 3.5rem );
-			@include flexbox( /*fd*/ null , /*jc*/ null , /*ai*/ center );
+			@include flex( /*fd*/ null , /*jc*/ null , /*ai*/ center );
 			text-decoration: none;
 		}
 
@@ -24,13 +24,13 @@
 		}
 
 		&-item {
-			@include flexbox( /*fd*/ null , /*jc*/ null , /*ai*/ center );
+			@include flex( /*fd*/ null , /*jc*/ null , /*ai*/ center );
 			list-style-type: none;
 			padding: 0 1.2rem;
 		}
 
 		&-link {
-			@include flexbox( /*fd*/ column , /*jc*/ flex-end , /*ai*/ null );
+			@include flex( /*fd*/ column , /*jc*/ flex-end , /*ai*/ null );
 			@include size( /*h*/ 4.5rem , /*w*/ null );
 			text-decoration: none;
 			transition: height 0.5s ease-in-out;
