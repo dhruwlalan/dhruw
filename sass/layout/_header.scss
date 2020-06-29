@@ -5,22 +5,17 @@
 
 .header-navbar {
 	background-color: transparent;
-	@include size( /*h*/ 8rem , /*w*/ 100vw );
-	@include pbm( /*p*/ 0 2rem , /*b*/ null , /*m*/ null );
-	@include pos-fixed( /*t*/ 0 , /*b*/ null , /*l*/ null , /*r*/ null );
-	z-index: 100;
+	@include box( $h: 8rem , $w: 100vw , $p: 0 2rem , $b: null , $m: null );
+	@include pos-fixed( $t: 0 , $b: null , $l: null , $r: null , $z: 100 );
 	transition: height 0.5s ease-in-out, background-color 0.5s ease-in-out;
 
 	&__nav {
-		display: flex;
-		justify-content: space-between;
-		@include size( /*h*/ 100% , /*w*/ null );
+		@include flex( $jc: space-between , $ai: null );
+		@include box( $h: 100% , $w: null );
 
 		&-brand {
-			@include typo( white , $ff-orbitron , 900 , 3.5rem );
-			text-decoration: none;
-			display: flex;
-			align-items: center;
+			@include typo( $c: white , $ff: $orbitron , $fw: 900 , $fs: 3.5rem , $td: none );
+			@include flex( $jc: null , $ai: center );
 		}
 
 		&-list {
@@ -28,39 +23,32 @@
 		}
 
 		&-item {
-			display: flex;
-			align-items: center;
+			@include flex( $jc: null , $ai: center );
 			list-style-type: none;
-			@include pbm( /*p*/ 0 1.2rem , /*b*/ null , /*m*/ null );
+			padding: 0 1.2rem;
 		}
 
 		&-link {
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-end;
-			@include size( /*h*/ 4.5rem , /*w*/ null );
+			@include flex( $fd: column, $jc: flex-end , $ai: null );
+			@include box( $h: 4.5rem , $w: null );
 			text-decoration: none;
 			transition: height 0.5s ease-in-out;
 
 			&--content {
-				@include typo( white , $ff-robotoMono , 400 , 1.8rem );
+				@include typo( $c: white , $ff: $robotoMono , $fw: 400 , $fs: 1.8rem );
 				transition: all .3s ease-out;
-
-				&:hover {
-					transform: translateY(-0.2rem);
-				}
 			}
 
 			&--bottom {
-				background-color: $color-cyan;
-				@include size( /*h*/ 3px , /*w*/ null );
-				@include pbm( /*p*/ null , /*b*/ null , /*m*/ .4rem 0 0 );
+				background-color: $cyan;
+				@include box( $h: 3px , $w: null , $p: null , $b: null , $mt: .4rem );
 				transform: scaleX(0);
 				transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out;
 			}
 
 			&:hover &--content {
-				color: $color-cyan;
+				transform: translateY(-0.2rem);
+				color: $cyan;
 			}
 			&:hover &--bottom {
 				transform: scaleX(1);
@@ -70,7 +58,7 @@
 
 	&--sticky {
 		background-color: #00ffde;
-		@include size( /*h*/ 7rem , /*w*/ null );
+		@include box( $h: 7rem , $w: null );
 
 		.header-navbar__nav {
 			
@@ -79,7 +67,7 @@
 			}
 			
 			&-link {
-				@include size( /*h*/ 3.2rem , /*w*/ null );
+				@include box( $h: 3.2rem , $w: null );
 				transition: height 0.5s ease-in-out;
 
 				&--content {
@@ -88,15 +76,15 @@
 				}
 
 				&--bottom {
+					background-color: #00575d;
 					margin-top: 0rem;
 					transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out;
 				}
 
 				&:hover .header-navbar__nav-link--content {
-					color: #000898;
+					color: black;
 				}
 				&:hover .header-navbar__nav-link--bottom {
-					background-color: #000898;
 					transform: scaleX(1);
 				}
 			}
