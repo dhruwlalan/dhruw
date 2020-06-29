@@ -5,18 +5,17 @@
 
 .header-navbar {
 	background-color: transparent;
-	@include box( /*h*/ 8rem , /*w*/ 100vw , /*p*/ 0 2rem , /*b*/ null , /*m*/ null );
-	@include pos-fixed( /*t*/ 0 , /*b*/ null , /*l*/ null , /*r*/ null , /*z*/ 100 );
+	@include box( $h: 8rem , $w: 100vw , $p: 0 2rem , $b: null , $m: null );
+	@include pos-fixed( $t: 0 , $b: null , $l: null , $r: null , $z: 100 );
 	transition: height 0.5s ease-in-out, background-color 0.5s ease-in-out;
 
 	&__nav {
-		@include flex( /*fd*/ null , /*jc*/ space-between , /*ai*/ null );
-		@include size( /*h*/ 100% , /*w*/ null );
+		@include flex( $jc: space-between , $ai: null );
+		@include box( $h: 100% , $w: null );
 
 		&-brand {
-			@include typo( white , $ff-orbitron , 900 , 3.5rem );
-			@include flex( /*fd*/ null , /*jc*/ null , /*ai*/ center );
-			text-decoration: none;
+			@include typo( $c: white , $ff: $orbitron , $fw: 900 , $fs: 3.5rem , $td: none );
+			@include flex( $jc: null , $ai: center );
 		}
 
 		&-list {
@@ -24,32 +23,32 @@
 		}
 
 		&-item {
-			@include flex( /*fd*/ null , /*jc*/ null , /*ai*/ center );
+			@include flex( $jc: null , $ai: center );
 			list-style-type: none;
 			padding: 0 1.2rem;
 		}
 
 		&-link {
-			@include flex( /*fd*/ column , /*jc*/ flex-end , /*ai*/ null );
-			@include size( /*h*/ 4.5rem , /*w*/ null );
+			@include flex( $fd: column, $jc: flex-end , $ai: null );
+			@include box( $h: 4.5rem , $w: null );
 			text-decoration: none;
 			transition: height 0.5s ease-in-out;
 
 			&--content {
-				@include typo( white , $ff-robotoMono , 400 , 1.8rem );
+				@include typo( $c: white , $ff: $robotoMono , $fw: 400 , $fs: 1.8rem );
 				transition: all .3s ease-out;
 			}
 
 			&--bottom {
-				background-color: $color-cyan;
-				@include box( /*h*/ 3px , /*w*/ null , /*p*/ null , /*b*/ null , /*m*/ .4rem 0 0 );
+				background-color: $cyan;
+				@include box( $h: 3px , $w: null , $p: null , $b: null , $mt: .4rem );
 				transform: scaleX(0);
 				transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out;
 			}
 
 			&:hover &--content {
 				transform: translateY(-0.2rem);
-				color: $color-cyan;
+				color: $cyan;
 			}
 			&:hover &--bottom {
 				transform: scaleX(1);
@@ -59,7 +58,7 @@
 
 	&--sticky {
 		background-color: #00ffde;
-		@include size( /*h*/ 7rem , /*w*/ null );
+		@include box( $h: 7rem , $w: null );
 
 		.header-navbar__nav {
 			
@@ -68,7 +67,7 @@
 			}
 			
 			&-link {
-				@include size( /*h*/ 3.2rem , /*w*/ null );
+				@include box( $h: 3.2rem , $w: null );
 				transition: height 0.5s ease-in-out;
 
 				&--content {
