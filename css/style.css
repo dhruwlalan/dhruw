@@ -1,3 +1,9 @@
+:root {
+  --black: 		black;
+  --white: 		white;
+  --cyan: 		cyan;
+  --lightcyan: 	rgb(0, 190, 225); }
+
 *,
 *::after,
 *::before {
@@ -61,18 +67,18 @@ body {
         font-size: 1.8rem;
         transition: all .3s ease-out; }
       .header-navbar__nav-link--bottom {
-        background-color: cyan;
+        background-color: var(--cyan);
         height: 3px;
         margin-top: 0.4rem;
         transform: scaleX(0);
         transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out; }
       .header-navbar__nav-link:hover .header-navbar__nav-link--content {
         transform: translateY(-0.2rem);
-        color: cyan; }
+        color: var(--cyan); }
       .header-navbar__nav-link:hover .header-navbar__nav-link--bottom {
         transform: scaleX(1); }
   .header-navbar--sticky {
-    background-color: #00ffde;
+    background-color: #62ffff;
     height: 7rem; }
     .header-navbar--sticky .header-navbar__nav-brand {
       color: black; }
@@ -92,7 +98,7 @@ body {
         transform: scaleX(1); }
 
 .section-home {
-  background-image: url("../images/background.png"), -webkit-radial-gradient(42% 30%, #000000, #003337);
+  background-image: url("../images/background.png"), -webkit-radial-gradient(42% 30%, #001d1d, #000000);
   background-size: cover;
   background-position: center center;
   height: 100vh; }
@@ -105,18 +111,18 @@ body {
     width: 50%;
     margin: 0 auto; }
     .section-home__content h1 {
-      color: cyan;
+      color: var(--cyan);
       font-family: "Orbitron", sans-serif;
       font-weight: 800;
       font-size: 8.4rem;
       letter-spacing: 0.5rem;
-      text-shadow: 0.1rem 0.1rem 0.8rem cyan; }
+      text-shadow: 0.1rem 0.1rem 0.8rem var(--cyan); }
     .section-home__content h4 {
-      color: cyan;
+      color: var(--cyan);
       font-family: "Orbitron", sans-serif;
       font-weight: 400;
       font-size: 2rem;
-      text-shadow: 0.1rem 0.1rem 0.8rem cyan; }
+      text-shadow: 0.1rem 0.1rem 0.8rem var(--cyan); }
   .section-home__profile img {
     position: absolute;
     bottom: 0;
@@ -125,5 +131,3 @@ body {
 
 .main {
   height: 200vh; }
-
-/*# sourceMappingURL=style.css.map */
