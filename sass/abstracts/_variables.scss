@@ -9,8 +9,8 @@ $anonymousPro: 		'Anonymous Pro', monospace;
 
 
 // color:
-$black: 		black;
-$white: 		white;
-$cyan: 			cyan;
-$lightcyan: 	rgb(0, 190, 225);
+$black: 		var(--black);
+$white: 		var(--white);
+$cyan: 			var(--cyan);
+$lightcyan: 	var(--ligtcyan);
 
