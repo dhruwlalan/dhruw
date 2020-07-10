@@ -1,8 +1,8 @@
 :root {
-  --black: 		black;
-  --white: 		white;
-  --cyan: 		cyan;
-  --lightcyan: 	rgb(0, 190, 225); }
+  --black: black;
+  --white: white;
+  --cyan: cyan;
+  --lightcyan: rgb(0, 190, 225); }
 
 *,
 *::after,
@@ -131,3 +131,5 @@ body {
 
 .main {
   height: 200vh; }
+
+/*# sourceMappingURL=style.css.map */
