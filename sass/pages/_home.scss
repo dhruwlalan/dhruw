@@ -1,15 +1,15 @@
 
 .section-home {
+	@include box( $h: 100vh , $w: null );
 	background: {
 		image: url('../images/background.png'), -webkit-radial-gradient(42% 30%, #001d1d, #000000);
 		size: cover;
 		position: center center;
 	}
-	@include box( $h: 100vh , $w: null );
 
 	&__content {
 		@include flex( $fd: column, $jc: center , $ai: flex-start );
-		@include box( $h: 50% , $w: 50% , $p: null , $b: null , $m: 0 auto );
+		@include box( $h: 50% , $w: 50% , $m: 0 auto );
 
 		h1 {
 			@include typo( $c: $cyan , $ff: $orbitron , $fw: 800 , $fs: 8.4rem , $ls: .5rem );
@@ -23,7 +23,7 @@
 	}  
 
 	&__profile img {
-		@include pos-absolute( $t: null , $b: 0 , $l: 50% , $r: null , $z: null );
+		@include pos-absolute( $b: 0 , $l: 50% );
 	    transform: translateX(-50%);
 	}
 }
