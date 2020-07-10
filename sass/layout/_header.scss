@@ -4,34 +4,34 @@
 }
 
 .header-navbar {
+	@include pos-fixed( $t: 0 , $z: 100 );
+	@include box( $h: 8rem , $w: 100vw , $p: 0 2rem );
 	background-color: transparent;
-	@include box( $h: 8rem , $w: 100vw , $p: 0 2rem , $b: null , $m: null );
-	@include pos-fixed( $t: 0 , $b: null , $l: null , $r: null , $z: 100 );
 	transition: height 0.5s ease-in-out, background-color 0.5s ease-in-out;
 
 	&__nav {
-		@include flex( $jc: space-between , $ai: null );
-		@include box( $h: 100% , $w: null );
+		@include flex( $jc: space-between );
+		@include box( $h: 100% );
 
 		&-brand {
 			@include typo( $c: white , $ff: $orbitron , $fw: 900 , $fs: 3.5rem , $td: none );
-			@include flex( $jc: null , $ai: center );
+			@include flex( $ai: center );
 		}
 
 		&-list {
-			display: flex;
+			@include flex();
 		}
 
 		&-item {
-			@include flex( $jc: null , $ai: center );
+			@include flex( $ai: center );
 			list-style-type: none;
 			padding: 0 1.2rem;
 		}
 
 		&-link {
-			@include flex( $fd: column, $jc: flex-end , $ai: null );
+			@include flex( $fd: column, $jc: flex-end );
 			@include box( $h: 4.5rem , $w: null );
-			text-decoration: none;
+			@include typo( $td: none );
 			transition: height 0.5s ease-in-out;
 
 			&--content {
@@ -40,15 +40,15 @@
 			}
 
 			&--bottom {
+				@include box( $h: 3px , $mt: .4rem );
 				background-color: $cyan;
-				@include box( $h: 3px , $w: null , $p: null , $b: null , $mt: .4rem );
 				transform: scaleX(0);
 				transition: transform .3s ease-in-out, margin-top .5s ease-in-out, background-color .5s ease-in-out;
 			}
 
 			&:hover &--content {
+				@include typo( $c: $cyan );
 				transform: translateY(-0.2rem);
-				color: $cyan;
 			}
 			&:hover &--bottom {
 				transform: scaleX(1);
@@ -57,13 +57,13 @@
 	}
 
 	&--sticky {
-		background-color: #62ffff;
 		@include box( $h: 7rem , $w: null );
+		background-color: #62ffff;
 
 		.header-navbar__nav {
 			
 			&-brand {
-				color: black;
+				@include typo( $c: black );
 			}
 			
 			&-link {
@@ -71,7 +71,7 @@
 				transition: height 0.5s ease-in-out;
 
 				&--content {
-					color: black;
+					@include typo( $c: black );
 					transition: all .3s ease-out;
 				}
 
@@ -82,7 +82,7 @@
 				}
 
 				&:hover .header-navbar__nav-link--content {
-					color: black;
+					@include typo( $c: black );
 				}
 				&:hover .header-navbar__nav-link--bottom {
 					transform: scaleX(1);
