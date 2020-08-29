@@ -1,11 +1,9 @@
 
 .section-home {
 	@include box( $h: 100vh , $w: null );
-	background: {
-		image: url('../images/background.png'), -webkit-radial-gradient(42% 30%, #001d1d, #000000);
-		size: cover;
-		position: center center;
-	}
+	background-image: url("./assets/images/background.png") , -webkit-radial-gradient(42% 30%, #001d1d, #000000);
+	background-size: cover;
+	background-position: center center;
 
 	&__content {
 		@include flex( $fd: column, $jc: center , $ai: flex-start );

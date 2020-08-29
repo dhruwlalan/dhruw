@@ -3,4 +3,5 @@ import '../sass/main.scss';
 
 // ASSETS
 import '../assets/favicon/favicon.ico';
-// import '../assets/';
+import '../assets/images/background.png';
+
