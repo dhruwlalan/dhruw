@@ -5,8 +5,9 @@
 @import "base/base";
 @import "base/reset";
 
-
 // @import "components/<here>";
 
+@import "layout/container";
+@import "layout/header";
 
-// @import "layout/<here>";
+@import "sections/home";
