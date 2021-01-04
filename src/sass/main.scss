@@ -1,13 +1,5 @@
-
-@import "abstracts/mixins";
-@import "abstracts/variables";
-
-@import "base/base";
-@import "base/reset";
-
-// @import "components/<here>";
-
-@import "layout/container";
-@import "layout/header";
-
-@import "sections/home";
+///BASE///
+@use "base/base";
+@use "base/reset";
+///LAYOUT///
+@use "layout/container";
