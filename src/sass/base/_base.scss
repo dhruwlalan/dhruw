@@ -2,13 +2,17 @@
 
 :root {
    //#fonts:#//
-   --ss: sans-serif;
+   --courier: "Courier Prime", monospace;
 
    //#colors:#//
    --white: White;
+   --pri-dark: #17171a;
+   --pri-light: #98bfda;
 }
 
 body {
+   @include bg($c: $pri-dark);
+   @include pbm($p: 2rem);
    -webkit-tap-highlight-color: transparent;
    tap-highlight-color: transparent;
 }
