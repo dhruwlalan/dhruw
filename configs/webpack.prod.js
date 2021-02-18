@@ -38,7 +38,10 @@ module.exports = {
       new CleanWebpackPlugin(),
       new VueLoaderPlugin(),
       new WebpackBar(),
-      new BundleAnalyzerPlugin(),
+      new BundleAnalyzerPlugin({
+         analyzerMode: 'disabled',
+         generateStatsFile: true,
+      }),
    ],
    optimization: {
       minimizer: [new OptimizeCssAssetsPlugin(), new TerserPlugin()],

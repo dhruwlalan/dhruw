@@ -4,7 +4,8 @@
    "scripts": {
       "start": "webpack-dev-server --config configs/webpack.start.js",
       "prod": "webpack --config configs/webpack.prod.js",
-      "vite": "vite"
+      "vite": "vite",
+      "wba": "webpack-bundle-analyzer dist/stats.json"
    },
    "dependencies": {
       "vue": "^3.0.4"

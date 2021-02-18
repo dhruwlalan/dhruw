@@ -1,0 +1,54 @@
+@use '../abstracts' as *;
+
+h1 {
+   @include typo($c: $primary, $ff: $courier, $fs: 4rem, $fw: 700);
+
+   @media screen and (max-width: 500px) {
+      font-size: 3rem;
+   }
+}
+h4 {
+   @include typo($c: $secondary, $ff: $courier, $fs: 2.4rem, $fw: 400);
+   @include pbm($mt: 3rem);
+
+   @media screen and (max-width: 500px) {
+      font-size: 2rem;
+   }
+}
+h5 {
+   @include typo($c: $secondary, $ff: $courier, $fs: 2rem, $fw: 400, $style: italic);
+   @include pbm($mt: 3rem);
+
+   @media screen and (max-width: 500px) {
+      font-size: 1.6rem;
+   }
+}
+.links {
+   @include size($h: 5rem, $w: 90%);
+   @include pbm($mt: 2.8rem);
+   @include flex($jc: flex-start, $ai: center);
+
+   &__link {
+      @include flex($jc: center, $ai: center);
+      fill: $primary;
+
+      &:not(:last-child) {
+         margin-right: 3rem;
+      }
+
+      &:hover {
+         fill: $secondary;
+      }
+
+      &--svg {
+         height: 2.6rem;
+         width: 2.6rem;
+      }
+   }
+}
+
+a[href^="https://stackoverflow"] > *
+{
+   height: 2.5rem;
+   width: 2.5rem;
+}
