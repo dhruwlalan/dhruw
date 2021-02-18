@@ -1,0 +1,40 @@
+@use '../abstracts' as *;
+
+#preloader {
+   @include size($h: 100vh, $w: 100vw);
+   @include bg($c: $background);
+   @include pos-fixed;
+}
+
+.spinner {
+   &::after {
+      content: "";
+      @include pos-fixed($l: 50%, $t: 50%);
+      @include size($h: 3rem, $w: 3rem);
+      @include pbm($b: 3px solid $primary, $rad: 50%, $bb: 3px solid $background, $br: 3px solid $background);
+      transform: translate(-50%, -50%);
+      animation: spin 0.5s linear infinite;
+   }
+}
+
+.fade-out {
+   animation: fade 1s;
+}
+
+@keyframes spin {
+   0% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(360deg);
+   }
+}
+
+@keyframes fade {
+   from {
+      opacity: 1;
+   }
+   to {
+      opacity: 0;
+   }
+}

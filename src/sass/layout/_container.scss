@@ -3,7 +3,7 @@
 .container {
    @include size($maxw: 100rem);
    @include pbm($m: 0 auto);
-   @include pbm($pt: 10rem);
+   @include pbm($p: 2rem, $pt: 10rem);
 
    @media screen and (max-width: 500px) {
       @include pbm($pt: 3rem);

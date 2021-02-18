@@ -13,7 +13,6 @@
 
 body {
    @include bg($c: $background);
-   @include pbm($p: 2rem);
    -webkit-tap-highlight-color: transparent;
    tap-highlight-color: transparent;
 }
