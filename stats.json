@@ -2,15 +2,15 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "77b23b15d1134fb52ad6",
-  "time": 8434,
-  "builtAt": 1613643304334,
+  "hash": "4a0c5ffcd5caec57c49d",
+  "time": 13334,
+  "builtAt": 1613654144023,
   "publicPath": "",
   "outputPath": "C:\\Users\\dhruw-pc\\Desktop\\WebDev\\my-projects\\MYSITE\\dist",
   "assetsByChunkName": {
     "index": [
-      "style.5ce2b0c680842096c494.css",
-      "index.11112081ef604364cb7e.bundle.js"
+      "style.9b717fd0520aab5ae479.css",
+      "index.beb791c35654fdfced76.bundle.js"
     ],
     "vendor": "vendor.57d6fbcbe09d14646afe.bundle.js"
   },
@@ -26,8 +26,8 @@
       "emitted": true
     },
     {
-      "name": "index.11112081ef604364cb7e.bundle.js",
-      "size": 5499,
+      "name": "index.beb791c35654fdfced76.bundle.js",
+      "size": 5469,
       "chunks": [
         0
       ],
@@ -41,15 +41,15 @@
     },
     {
       "name": "index.html",
-      "size": 750,
+      "size": 737,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": true
     },
     {
-      "name": "style.5ce2b0c680842096c494.css",
-      "size": 2773,
+      "name": "style.9b717fd0520aab5ae479.css",
+      "size": 2244,
       "chunks": [
         0
       ],
@@ -85,8 +85,8 @@
       ],
       "assets": [
         "vendor.57d6fbcbe09d14646afe.bundle.js",
-        "style.5ce2b0c680842096c494.css",
-        "index.11112081ef604364cb7e.bundle.js"
+        "style.9b717fd0520aab5ae479.css",
+        "index.beb791c35654fdfced76.bundle.js"
       ],
       "children": {},
       "childAssets": {}
@@ -100,8 +100,8 @@
       ],
       "assets": [
         "vendor.57d6fbcbe09d14646afe.bundle.js",
-        "style.5ce2b0c680842096c494.css",
-        "index.11112081ef604364cb7e.bundle.js"
+        "style.9b717fd0520aab5ae479.css",
+        "index.beb791c35654fdfced76.bundle.js"
       ],
       "children": {},
       "childAssets": {}
@@ -113,15 +113,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 11559,
+      "size": 11121,
       "names": [
         "index"
       ],
       "files": [
-        "style.5ce2b0c680842096c494.css",
-        "index.11112081ef604364cb7e.bundle.js"
+        "style.9b717fd0520aab5ae479.css",
+        "index.beb791c35654fdfced76.bundle.js"
       ],
-      "hash": "99ce99da28d492d50995",
+      "hash": "60a107b7b4aec491d64b",
       "siblings": [
         1
       ],
@@ -135,7 +135,7 @@
           "name": "./src/components/vanilla/preloader.js",
           "index": 5,
           "index2": 4,
-          "size": 294,
+          "size": 296,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -174,7 +174,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 1,
-          "source": "var preloader = document.getElementById('preloader');\nwindow.addEventListener('load', function () {\n  setTimeout(function () {\n    preloader.classList.remove('spinner');\n    preloader.classList.add('fade-out');\n    setTimeout(function () {\n      preloader.remove();\n    }, 1000);\n  }, 500);\n});"
+          "source": "var preloader = document.querySelector('.preloader');\nwindow.addEventListener('load', function () {\n  setTimeout(function () {\n    // preloader.classList.add('move-down');\n    preloader.classList.add('fade-out');\n    setTimeout(function () {\n      preloader.remove();\n    }, 1000);\n  }, 100);\n});"
         },
         {
           "id": 4,
@@ -1676,7 +1676,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/postcss-loader/dist/cjs.js??ref--2-2!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss",
           "index": 4,
           "index2": 1,
-          "size": 2869,
+          "size": 2429,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -12984,7 +12984,7 @@
       "name": "./src/components/vanilla/preloader.js",
       "index": 5,
       "index2": 4,
-      "size": 294,
+      "size": 296,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -13023,7 +13023,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 1,
-      "source": "var preloader = document.getElementById('preloader');\nwindow.addEventListener('load', function () {\n  setTimeout(function () {\n    preloader.classList.remove('spinner');\n    preloader.classList.add('fade-out');\n    setTimeout(function () {\n      preloader.remove();\n    }, 1000);\n  }, 500);\n});"
+      "source": "var preloader = document.querySelector('.preloader');\nwindow.addEventListener('load', function () {\n  setTimeout(function () {\n    // preloader.classList.add('move-down');\n    preloader.classList.add('fade-out');\n    setTimeout(function () {\n      preloader.remove();\n    }, 1000);\n  }, 100);\n});"
     },
     {
       "id": 3,
@@ -14582,7 +14582,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/postcss-loader/dist/cjs.js??ref--2-2!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss",
       "index": 4,
       "index2": 1,
-      "size": 2869,
+      "size": 2429,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -14649,7 +14649,7 @@
       "assets": [
         {
           "name": "__child-HtmlWebpackPlugin_0",
-          "size": 4367,
+          "size": 4352,
           "chunks": [
             0
           ],
@@ -14691,14 +14691,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 674,
+          "size": 659,
           "names": [
             "HtmlWebpackPlugin_0"
           ],
           "files": [
             "__child-HtmlWebpackPlugin_0"
           ],
-          "hash": "875acaaeba32abaccf96",
+          "hash": "7dc523bea8d8c287568e",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -14710,7 +14710,7 @@
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
               "index": 0,
               "index2": 0,
-              "size": 674,
+              "size": 659,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -14743,7 +14743,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "// Module\nvar code = \"<!DOCTYPE html> <html lang=\\\"en\\\" dir=\\\"ltr\\\"> <head> <meta charset=\\\"utf-8\\\"/> <meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no\\\"/> <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\"/> <title>dhruw lalan</title> <link rel=\\\"icon\\\" href=\\\"./assets/favicon/favicon.ico?v=2\\\"/> <link rel=\\\"preconnect\\\" href=\\\"https://fonts.gstatic.com\\\"/> <link href=\\\"https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap\\\" rel=\\\"stylesheet\\\"/> </head> <body> <div id=\\\"preloader\\\" class=\\\"spinner\\\"></div> <div id=\\\"app\\\"></div> </body> </html> \";\n// Exports\nmodule.exports = code;"
+              "source": "// Module\nvar code = \"<!DOCTYPE html> <html lang=\\\"en\\\" dir=\\\"ltr\\\"> <head> <meta charset=\\\"utf-8\\\"/> <meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no\\\"/> <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\"/> <title>dhruw lalan</title> <link rel=\\\"icon\\\" href=\\\"./assets/favicon/favicon.ico?v=2\\\"/> <link rel=\\\"preconnect\\\" href=\\\"https://fonts.gstatic.com\\\"/> <link href=\\\"https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap\\\" rel=\\\"stylesheet\\\"/> </head> <body> <div class=\\\"preloader\\\"></div> <div id=\\\"app\\\"></div> </body> </html> \";\n// Exports\nmodule.exports = code;"
             }
           ],
           "filteredModules": 0,
@@ -14766,7 +14766,7 @@
           "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
           "index": 0,
           "index2": 0,
-          "size": 674,
+          "size": 659,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -14799,7 +14799,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "// Module\nvar code = \"<!DOCTYPE html> <html lang=\\\"en\\\" dir=\\\"ltr\\\"> <head> <meta charset=\\\"utf-8\\\"/> <meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no\\\"/> <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\"/> <title>dhruw lalan</title> <link rel=\\\"icon\\\" href=\\\"./assets/favicon/favicon.ico?v=2\\\"/> <link rel=\\\"preconnect\\\" href=\\\"https://fonts.gstatic.com\\\"/> <link href=\\\"https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap\\\" rel=\\\"stylesheet\\\"/> </head> <body> <div id=\\\"preloader\\\" class=\\\"spinner\\\"></div> <div id=\\\"app\\\"></div> </body> </html> \";\n// Exports\nmodule.exports = code;"
+          "source": "// Module\nvar code = \"<!DOCTYPE html> <html lang=\\\"en\\\" dir=\\\"ltr\\\"> <head> <meta charset=\\\"utf-8\\\"/> <meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no\\\"/> <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\"/> <title>dhruw lalan</title> <link rel=\\\"icon\\\" href=\\\"./assets/favicon/favicon.ico?v=2\\\"/> <link rel=\\\"preconnect\\\" href=\\\"https://fonts.gstatic.com\\\"/> <link href=\\\"https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap\\\" rel=\\\"stylesheet\\\"/> </head> <body> <div class=\\\"preloader\\\"></div> <div id=\\\"app\\\"></div> </body> </html> \";\n// Exports\nmodule.exports = code;"
         }
       ],
       "filteredModules": 0,
@@ -14851,14 +14851,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 4787,
+          "size": 4345,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "7208eead56d03a57bf83",
+          "hash": "e52396337b4be545ed15",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -14928,7 +14928,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/postcss-loader/dist/cjs.js??ref--2-2!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss",
               "index": 0,
               "index2": 1,
-              "size": 3182,
+              "size": 2740,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -14963,7 +14963,7 @@
                 "ModuleConcatenation bailout: Module uses module.id"
               ],
               "depth": 0,
-              "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \":root{--courier: \\\"Courier Prime\\\", monospace;--white: White;--background: #101012;--primary: #73c7ef;--secondary: #8ca9bd}body{background:#101012;background:var(--background);-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent}*,*::after,*::before{margin:0;padding:0;-webkit-box-sizing:inherit;box-sizing:inherit}html{font-size:62.5%}body{-webkit-box-sizing:border-box;box-sizing:border-box}#preloader{height:100vh;width:100vw;background:#101012;background:var(--background);position:fixed}.spinner::after{content:\\\"\\\";position:fixed;top:50%;left:50%;height:3rem;width:3rem;border:3px solid #73c7ef;border:3px solid var(--primary);border-right:3px solid #101012;border-right:3px solid var(--background);border-bottom:3px solid #101012;border-bottom:3px solid var(--background);border-radius:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);-webkit-animation:spin .5s linear infinite;animation:spin .5s linear infinite}.fade-out{-webkit-animation:fade 1s;animation:fade 1s}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes fade{from{opacity:1}to{opacity:0}}@keyframes fade{from{opacity:1}to{opacity:0}}.container{max-width:100rem;margin:0 auto;padding:2rem;padding-top:10rem}@media screen and (max-width: 500px){.container{padding-top:3rem}}h1{color:#73c7ef;color:var(--primary);font:700 4rem \\\"Courier Prime\\\", monospace;font:700 4rem var(--courier)}@media screen and (max-width: 500px){h1{font-size:3rem}}h4{color:#8ca9bd;color:var(--secondary);font:400 2.4rem \\\"Courier Prime\\\", monospace;font:400 2.4rem var(--courier);margin-top:3rem}@media screen and (max-width: 500px){h4{font-size:2rem}}h5{color:#8ca9bd;color:var(--secondary);font:italic 400 2rem \\\"Courier Prime\\\", monospace;font:italic 400 2rem var(--courier);margin-top:3rem}@media screen and (max-width: 500px){h5{font-size:1.6rem}}.links{height:5rem;width:90%;margin-top:2.8rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.links__link{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;fill:#73c7ef;fill:var(--primary)}.links__link:not(:last-child){margin-right:3rem}.links__link--svg{height:2.6rem;width:2.6rem}a[href^=\\\"https://stackoverflow\\\"]>*{height:2.5rem;width:2.5rem}\", \"\"]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
+              "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \":root{--courier: \\\"Courier Prime\\\", monospace;--white: White;--background: #101012;--primary: #73c7ef;--secondary: #8ca9bd}body{background:#101012;background:var(--background);-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent}*,*::after,*::before{margin:0;padding:0;-webkit-box-sizing:inherit;box-sizing:inherit}html{font-size:62.5%}body{-webkit-box-sizing:border-box;box-sizing:border-box}.preloader{height:100vh;width:100vw;background:#101012;background:var(--background);position:fixed;-webkit-transition:-webkit-transform 1s ease-in;transition:-webkit-transform 1s ease-in;transition:transform 1s ease-in;transition:transform 1s ease-in, -webkit-transform 1s ease-in}.move-down{-webkit-transform:translateY(40rem) !important;transform:translateY(40rem) !important}.fade-out{-webkit-animation:fade-out 1s;animation:fade-out 1s}@-webkit-keyframes fade-out{from{opacity:1}to{opacity:0}}@keyframes fade-out{from{opacity:1}to{opacity:0}}.container{max-width:100rem;margin:0 auto;padding:2rem;padding-top:10rem}@media screen and (max-width: 500px){.container{padding-top:3rem}}h1{color:#73c7ef;color:var(--primary);font:700 4rem \\\"Courier Prime\\\", monospace;font:700 4rem var(--courier)}@media screen and (max-width: 500px){h1{font-size:3rem}}h4{color:#8ca9bd;color:var(--secondary);font:400 2.4rem \\\"Courier Prime\\\", monospace;font:400 2.4rem var(--courier);margin-top:3rem}@media screen and (max-width: 500px){h4{font-size:2rem}}h5{color:#8ca9bd;color:var(--secondary);font:italic 400 2rem \\\"Courier Prime\\\", monospace;font:italic 400 2rem var(--courier);margin-top:3rem}@media screen and (max-width: 500px){h5{font-size:1.6rem}}.links{height:5rem;width:90%;margin-top:2.8rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.links__link{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;fill:#73c7ef;fill:var(--primary)}.links__link:not(:last-child){margin-right:3rem}.links__link--svg{height:2.6rem;width:2.6rem}a[href^=\\\"https://stackoverflow\\\"]>*{height:2.5rem;width:2.5rem}\", \"\"]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
             }
           ],
           "filteredModules": 0,
@@ -15044,7 +15044,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/postcss-loader/dist/cjs.js??ref--2-2!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss",
           "index": 0,
           "index2": 1,
-          "size": 3182,
+          "size": 2740,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -15079,7 +15079,7 @@
             "ModuleConcatenation bailout: Module uses module.id"
           ],
           "depth": 0,
-          "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \":root{--courier: \\\"Courier Prime\\\", monospace;--white: White;--background: #101012;--primary: #73c7ef;--secondary: #8ca9bd}body{background:#101012;background:var(--background);-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent}*,*::after,*::before{margin:0;padding:0;-webkit-box-sizing:inherit;box-sizing:inherit}html{font-size:62.5%}body{-webkit-box-sizing:border-box;box-sizing:border-box}#preloader{height:100vh;width:100vw;background:#101012;background:var(--background);position:fixed}.spinner::after{content:\\\"\\\";position:fixed;top:50%;left:50%;height:3rem;width:3rem;border:3px solid #73c7ef;border:3px solid var(--primary);border-right:3px solid #101012;border-right:3px solid var(--background);border-bottom:3px solid #101012;border-bottom:3px solid var(--background);border-radius:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);-webkit-animation:spin .5s linear infinite;animation:spin .5s linear infinite}.fade-out{-webkit-animation:fade 1s;animation:fade 1s}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes fade{from{opacity:1}to{opacity:0}}@keyframes fade{from{opacity:1}to{opacity:0}}.container{max-width:100rem;margin:0 auto;padding:2rem;padding-top:10rem}@media screen and (max-width: 500px){.container{padding-top:3rem}}h1{color:#73c7ef;color:var(--primary);font:700 4rem \\\"Courier Prime\\\", monospace;font:700 4rem var(--courier)}@media screen and (max-width: 500px){h1{font-size:3rem}}h4{color:#8ca9bd;color:var(--secondary);font:400 2.4rem \\\"Courier Prime\\\", monospace;font:400 2.4rem var(--courier);margin-top:3rem}@media screen and (max-width: 500px){h4{font-size:2rem}}h5{color:#8ca9bd;color:var(--secondary);font:italic 400 2rem \\\"Courier Prime\\\", monospace;font:italic 400 2rem var(--courier);margin-top:3rem}@media screen and (max-width: 500px){h5{font-size:1.6rem}}.links{height:5rem;width:90%;margin-top:2.8rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.links__link{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;fill:#73c7ef;fill:var(--primary)}.links__link:not(:last-child){margin-right:3rem}.links__link--svg{height:2.6rem;width:2.6rem}a[href^=\\\"https://stackoverflow\\\"]>*{height:2.5rem;width:2.5rem}\", \"\"]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
+          "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \":root{--courier: \\\"Courier Prime\\\", monospace;--white: White;--background: #101012;--primary: #73c7ef;--secondary: #8ca9bd}body{background:#101012;background:var(--background);-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent}*,*::after,*::before{margin:0;padding:0;-webkit-box-sizing:inherit;box-sizing:inherit}html{font-size:62.5%}body{-webkit-box-sizing:border-box;box-sizing:border-box}.preloader{height:100vh;width:100vw;background:#101012;background:var(--background);position:fixed;-webkit-transition:-webkit-transform 1s ease-in;transition:-webkit-transform 1s ease-in;transition:transform 1s ease-in;transition:transform 1s ease-in, -webkit-transform 1s ease-in}.move-down{-webkit-transform:translateY(40rem) !important;transform:translateY(40rem) !important}.fade-out{-webkit-animation:fade-out 1s;animation:fade-out 1s}@-webkit-keyframes fade-out{from{opacity:1}to{opacity:0}}@keyframes fade-out{from{opacity:1}to{opacity:0}}.container{max-width:100rem;margin:0 auto;padding:2rem;padding-top:10rem}@media screen and (max-width: 500px){.container{padding-top:3rem}}h1{color:#73c7ef;color:var(--primary);font:700 4rem \\\"Courier Prime\\\", monospace;font:700 4rem var(--courier)}@media screen and (max-width: 500px){h1{font-size:3rem}}h4{color:#8ca9bd;color:var(--secondary);font:400 2.4rem \\\"Courier Prime\\\", monospace;font:400 2.4rem var(--courier);margin-top:3rem}@media screen and (max-width: 500px){h4{font-size:2rem}}h5{color:#8ca9bd;color:var(--secondary);font:italic 400 2rem \\\"Courier Prime\\\", monospace;font:italic 400 2rem var(--courier);margin-top:3rem}@media screen and (max-width: 500px){h5{font-size:1.6rem}}.links{height:5rem;width:90%;margin-top:2.8rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.links__link{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;fill:#73c7ef;fill:var(--primary)}.links__link:not(:last-child){margin-right:3rem}.links__link--svg{height:2.6rem;width:2.6rem}a[href^=\\\"https://stackoverflow\\\"]>*{height:2.5rem;width:2.5rem}\", \"\"]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
         }
       ],
       "filteredModules": 0,
