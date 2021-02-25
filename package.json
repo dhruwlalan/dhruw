@@ -5,6 +5,7 @@
       "start": "webpack-dev-server --config configs/webpack.start.js",
       "prod": "webpack --config configs/webpack.prod.js",
       "vite": "vite",
+      "clean": "rimraf dist",
       "wba": "webpack-bundle-analyzer dist/stats.json"
    },
    "dependencies": {
@@ -36,6 +37,7 @@
       "postcss-preset-env": "^6.7.0",
       "prettier": "^2.2.1",
       "regenerator-runtime": "^0.13.7",
+      "rimraf": "^2.7.1",
       "sass": "^1.30.0",
       "sass-loader": "^10.1.0",
       "style-loader": "^2.0.0",
