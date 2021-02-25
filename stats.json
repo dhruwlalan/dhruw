@@ -2,15 +2,15 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "4a0c5ffcd5caec57c49d",
-  "time": 13334,
-  "builtAt": 1613654144023,
+  "hash": "3f109e37ba7a86f5fa66",
+  "time": 13046,
+  "builtAt": 1614241270071,
   "publicPath": "",
   "outputPath": "C:\\Users\\dhruw-pc\\Desktop\\WebDev\\my-projects\\MYSITE\\dist",
   "assetsByChunkName": {
     "index": [
       "style.9b717fd0520aab5ae479.css",
-      "index.beb791c35654fdfced76.bundle.js"
+      "index.48c93b9c5e96d52ff48b.bundle.js"
     ],
     "vendor": "vendor.57d6fbcbe09d14646afe.bundle.js"
   },
@@ -26,8 +26,8 @@
       "emitted": true
     },
     {
-      "name": "index.beb791c35654fdfced76.bundle.js",
-      "size": 5469,
+      "name": "index.48c93b9c5e96d52ff48b.bundle.js",
+      "size": 5470,
       "chunks": [
         0
       ],
@@ -86,7 +86,7 @@
       "assets": [
         "vendor.57d6fbcbe09d14646afe.bundle.js",
         "style.9b717fd0520aab5ae479.css",
-        "index.beb791c35654fdfced76.bundle.js"
+        "index.48c93b9c5e96d52ff48b.bundle.js"
       ],
       "children": {},
       "childAssets": {}
@@ -101,7 +101,7 @@
       "assets": [
         "vendor.57d6fbcbe09d14646afe.bundle.js",
         "style.9b717fd0520aab5ae479.css",
-        "index.beb791c35654fdfced76.bundle.js"
+        "index.48c93b9c5e96d52ff48b.bundle.js"
       ],
       "children": {},
       "childAssets": {}
@@ -113,15 +113,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 11121,
+      "size": 11118,
       "names": [
         "index"
       ],
       "files": [
         "style.9b717fd0520aab5ae479.css",
-        "index.beb791c35654fdfced76.bundle.js"
+        "index.48c93b9c5e96d52ff48b.bundle.js"
       ],
-      "hash": "60a107b7b4aec491d64b",
+      "hash": "c2bf147c1fb1497ecf82",
       "siblings": [
         1
       ],
@@ -135,7 +135,7 @@
           "name": "./src/components/vanilla/preloader.js",
           "index": 5,
           "index2": 4,
-          "size": 296,
+          "size": 293,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -174,7 +174,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 1,
-          "source": "var preloader = document.querySelector('.preloader');\nwindow.addEventListener('load', function () {\n  setTimeout(function () {\n    // preloader.classList.add('move-down');\n    preloader.classList.add('fade-out');\n    setTimeout(function () {\n      preloader.remove();\n    }, 1000);\n  }, 100);\n});"
+          "source": "var preloader = document.querySelector('.preloader');\nwindow.addEventListener('load', function () {\n  setTimeout(function () {\n    preloader.classList.add('move-down'); // preloader.classList.add('fade-out');\n\n    setTimeout(function () {\n      preloader.remove();\n    }, 1000);\n  }, 100);\n});"
         },
         {
           "id": 4,
@@ -12984,7 +12984,7 @@
       "name": "./src/components/vanilla/preloader.js",
       "index": 5,
       "index2": 4,
-      "size": 296,
+      "size": 293,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -13023,7 +13023,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 1,
-      "source": "var preloader = document.querySelector('.preloader');\nwindow.addEventListener('load', function () {\n  setTimeout(function () {\n    // preloader.classList.add('move-down');\n    preloader.classList.add('fade-out');\n    setTimeout(function () {\n      preloader.remove();\n    }, 1000);\n  }, 100);\n});"
+      "source": "var preloader = document.querySelector('.preloader');\nwindow.addEventListener('load', function () {\n  setTimeout(function () {\n    preloader.classList.add('move-down'); // preloader.classList.add('fade-out');\n\n    setTimeout(function () {\n      preloader.remove();\n    }, 1000);\n  }, 100);\n});"
     },
     {
       "id": 3,
