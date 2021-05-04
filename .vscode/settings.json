@@ -6,9 +6,6 @@
    "[vue]": {
       "editor.formatOnSave": false
    },
-   "[typescript]": {
-      "editor.formatOnSave": false
-   },
    "editor.codeActionsOnSave": {
       "source.fixAll": true
    }
