@@ -1,12 +1,10 @@
 <template>
    <div class="container">
-      <h1>Hello,</h1>
-      <h1>My name is dhruw lalan.</h1>
+      <h1 class="bang">Hello,</h1>
+      <h1>my name is dhruw lalan.</h1>
       <h4 class="bio">
-         I love building cool stuff on the web & <br />
-         some automative CLI tools and applications! <br />
-         I am also passionate about OSS & will try <br />
-         to give any contribution for the community.
+         I love building cool stuff on the web & some automative CLI applications! I am also very
+         passionate about OSS & will try to give any contribution for the community.
       </h4>
       <h5 class="bio">Current Goals: Contribute to Open Source.</h5>
       <div class="links">

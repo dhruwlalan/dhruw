@@ -4,23 +4,31 @@ h1 {
    @include typo($c: $primary, $ff: $courier, $fs: 4rem, $fw: 700);
 
    @media screen and (max-width: 500px) {
-      font-size: 3rem;
+      font-size: 2.2rem;
    }
 }
 h4 {
+   @include size($maxw: 54.5rem);
    @include typo($c: $secondary, $ff: $courier, $fs: 2.4rem, $fw: 400);
    @include pbm($mt: 3rem);
+   text-align: justify;
 
    @media screen and (max-width: 500px) {
-      font-size: 2rem;
+      font-size: 1.8rem;
    }
 }
 h5 {
-   @include typo($c: $secondary, $ff: $courier, $fs: 2rem, $fw: 400, $style: italic);
+   @include typo(
+      $c: $secondary,
+      $ff: $courier,
+      $fs: 2rem,
+      $fw: 400,
+      $style: italic
+   );
    @include pbm($mt: 3rem);
 
    @media screen and (max-width: 500px) {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
    }
 }
 .links {
@@ -42,7 +50,9 @@ h5 {
       }
    }
 }
-
+.bang {
+   font-size: 3.3rem;
+}
 a[href^="https://stackoverflow"] > *
 {
    height: 2.5rem;
