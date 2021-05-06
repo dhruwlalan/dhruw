@@ -5,7 +5,7 @@
    @include pbm($m: 0 auto);
    @include pbm($p: 2rem, $pt: 10rem);
 
-   @media screen and (max-width: 500px) {
+   @media screen and (max-width: 600px) {
       @include pbm($pt: 3rem);
    }
 }

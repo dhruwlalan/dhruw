@@ -3,17 +3,16 @@
 h1 {
    @include typo($c: $primary, $ff: $courier, $fs: 4rem, $fw: 700);
 
-   @media screen and (max-width: 500px) {
-      font-size: 2.2rem;
+   @media screen and (max-width: 600px) {
+      font-size: 6.4vw;
    }
 }
 h4 {
-   @include size($maxw: 54.5rem);
+   @include size($maxw: 55rem);
    @include typo($c: $secondary, $ff: $courier, $fs: 2.4rem, $fw: 400);
    @include pbm($mt: 3rem);
-   text-align: justify;
 
-   @media screen and (max-width: 500px) {
+   @media screen and (max-width: 600px) {
       font-size: 1.8rem;
    }
 }
@@ -27,7 +26,7 @@ h5 {
    );
    @include pbm($mt: 3rem);
 
-   @media screen and (max-width: 500px) {
+   @media screen and (max-width: 600px) {
       font-size: 1.8rem;
    }
 }
@@ -51,7 +50,10 @@ h5 {
    }
 }
 .bang {
-   font-size: 3.3rem;
+   font-size: 6rem;
+   @media screen and (max-width: 600px) {
+      font-size: calc(6.4vw + 1.4rem);
+   }
 }
 a[href^="https://stackoverflow"] > *
 {
