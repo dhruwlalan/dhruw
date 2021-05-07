@@ -2,15 +2,15 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "b6b9782181a9fab369be",
-  "time": 8164,
-  "builtAt": 1620365875007,
+  "hash": "068f769bb7cd67ab659d",
+  "time": 6044,
+  "builtAt": 1620366533619,
   "publicPath": "",
   "outputPath": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\dist",
   "assetsByChunkName": {
     "index": [
       "style.50dd3a4f2087d70550f5.css",
-      "index.f718d86764deea9cb7c5.bundle.js"
+      "index.2251afb838804579c708.bundle.js"
     ],
     "vendor": "vendor.57d6fbcbe09d14646afe.bundle.js"
   },
@@ -26,8 +26,8 @@
       "emitted": true
     },
     {
-      "name": "index.f718d86764deea9cb7c5.bundle.js",
-      "size": 5618,
+      "name": "index.2251afb838804579c708.bundle.js",
+      "size": 5616,
       "chunks": [
         0
       ],
@@ -86,7 +86,7 @@
       "assets": [
         "vendor.57d6fbcbe09d14646afe.bundle.js",
         "style.50dd3a4f2087d70550f5.css",
-        "index.f718d86764deea9cb7c5.bundle.js"
+        "index.2251afb838804579c708.bundle.js"
       ],
       "children": {},
       "childAssets": {}
@@ -101,7 +101,7 @@
       "assets": [
         "vendor.57d6fbcbe09d14646afe.bundle.js",
         "style.50dd3a4f2087d70550f5.css",
-        "index.f718d86764deea9cb7c5.bundle.js"
+        "index.2251afb838804579c708.bundle.js"
       ],
       "children": {},
       "childAssets": {}
@@ -113,15 +113,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 11401,
+      "size": 11399,
       "names": [
         "index"
       ],
       "files": [
         "style.50dd3a4f2087d70550f5.css",
-        "index.f718d86764deea9cb7c5.bundle.js"
+        "index.2251afb838804579c708.bundle.js"
       ],
-      "hash": "dc1c15f393341f06061b",
+      "hash": "b09a4e7397d32b513387",
       "siblings": [
         1
       ],
@@ -160,7 +160,7 @@
           "reasons": [
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony side effect evaluation",
@@ -178,11 +178,11 @@
         },
         {
           "id": 4,
-          "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "name": "./src/main.js + 20 modules",
           "index": 0,
           "index2": 28,
-          "size": 8549,
+          "size": 8547,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -354,7 +354,7 @@
               ],
               "optimizationBailout": [],
               "depth": 1,
-              "source": "import { render } from \"./App.vue?vue&type=template&id=017bd5e0\"\nimport script from \"./App.vue?vue&type=script&lang=js\"\nexport * from \"./App.vue?vue&type=script&lang=js\"\nscript.render = render\n\nexport default script"
+              "source": "import { render } from \"./App.vue?vue&type=template&id=02e738b2\"\nimport script from \"./App.vue?vue&type=script&lang=js\"\nexport * from \"./App.vue?vue&type=script&lang=js\"\nscript.render = render\n\nexport default script"
             },
             {
               "id": null,
@@ -458,8 +458,8 @@
             },
             {
               "id": null,
-              "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=017bd5e0",
-              "name": "./src/App.vue?vue&type=template&id=017bd5e0",
+              "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=02e738b2",
+              "name": "./src/App.vue?vue&type=template&id=02e738b2",
               "index": 13,
               "index2": 12,
               "size": 209,
@@ -494,7 +494,7 @@
                   "module": "./src/App.vue",
                   "moduleName": "./src/App.vue",
                   "type": "harmony side effect evaluation",
-                  "userRequest": "./App.vue?vue&type=template&id=017bd5e0",
+                  "userRequest": "./App.vue?vue&type=template&id=02e738b2",
                   "loc": "1:0-64"
                 },
                 {
@@ -503,7 +503,7 @@
                   "module": "./src/App.vue",
                   "moduleName": "./src/App.vue",
                   "type": "harmony import specifier",
-                  "userRequest": "./App.vue?vue&type=template&id=017bd5e0",
+                  "userRequest": "./App.vue?vue&type=template&id=02e738b2",
                   "loc": "4:16-22"
                 }
               ],
@@ -515,7 +515,7 @@
               ],
               "optimizationBailout": [],
               "depth": 2,
-              "source": "export * from \"-!../node_modules/babel-loader/lib/index.js!../node_modules/vue-loader/dist/templateLoader.js??ref--6!../node_modules/vue-loader/dist/index.js??ref--19-0!./App.vue?vue&type=template&id=017bd5e0\""
+              "source": "export * from \"-!../node_modules/babel-loader/lib/index.js!../node_modules/vue-loader/dist/templateLoader.js??ref--6!../node_modules/vue-loader/dist/index.js??ref--19-0!./App.vue?vue&type=template&id=02e738b2\""
             },
             {
               "id": null,
@@ -607,19 +607,19 @@
             },
             {
               "id": null,
-              "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=017bd5e0",
-              "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/dist/templateLoader.js??ref--6!./node_modules/vue-loader/dist??ref--19-0!./src/App.vue?vue&type=template&id=017bd5e0",
+              "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=02e738b2",
+              "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/dist/templateLoader.js??ref--6!./node_modules/vue-loader/dist??ref--19-0!./src/App.vue?vue&type=template&id=02e738b2",
               "index": 14,
               "index2": 11,
-              "size": 2142,
+              "size": 2140,
               "cacheable": true,
               "built": true,
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=017bd5e0",
+              "issuer": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=02e738b2",
               "issuerId": null,
-              "issuerName": "./src/App.vue?vue&type=template&id=017bd5e0",
+              "issuerName": "./src/App.vue?vue&type=template&id=02e738b2",
               "issuerPath": [
                 {
                   "id": null,
@@ -633,8 +633,8 @@
                 },
                 {
                   "id": null,
-                  "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=017bd5e0",
-                  "name": "./src/App.vue?vue&type=template&id=017bd5e0"
+                  "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=02e738b2",
+                  "name": "./src/App.vue?vue&type=template&id=02e738b2"
                 }
               ],
               "failed": false,
@@ -644,20 +644,20 @@
               "reasons": [
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=017bd5e0",
-                  "module": "./src/App.vue?vue&type=template&id=017bd5e0",
-                  "moduleName": "./src/App.vue?vue&type=template&id=017bd5e0",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=02e738b2",
+                  "module": "./src/App.vue?vue&type=template&id=02e738b2",
+                  "moduleName": "./src/App.vue?vue&type=template&id=02e738b2",
                   "type": "harmony side effect evaluation",
-                  "userRequest": "-!../node_modules/babel-loader/lib/index.js!../node_modules/vue-loader/dist/templateLoader.js??ref--6!../node_modules/vue-loader/dist/index.js??ref--19-0!./App.vue?vue&type=template&id=017bd5e0",
+                  "userRequest": "-!../node_modules/babel-loader/lib/index.js!../node_modules/vue-loader/dist/templateLoader.js??ref--6!../node_modules/vue-loader/dist/index.js??ref--19-0!./App.vue?vue&type=template&id=02e738b2",
                   "loc": "1:0-209"
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=017bd5e0",
-                  "module": "./src/App.vue?vue&type=template&id=017bd5e0",
-                  "moduleName": "./src/App.vue?vue&type=template&id=017bd5e0",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=02e738b2",
+                  "module": "./src/App.vue?vue&type=template&id=02e738b2",
+                  "moduleName": "./src/App.vue?vue&type=template&id=02e738b2",
                   "type": "harmony export imported specifier",
-                  "userRequest": "-!../node_modules/babel-loader/lib/index.js!../node_modules/vue-loader/dist/templateLoader.js??ref--6!../node_modules/vue-loader/dist/index.js??ref--19-0!./App.vue?vue&type=template&id=017bd5e0",
+                  "userRequest": "-!../node_modules/babel-loader/lib/index.js!../node_modules/vue-loader/dist/templateLoader.js??ref--6!../node_modules/vue-loader/dist/index.js??ref--19-0!./App.vue?vue&type=template&id=02e738b2",
                   "loc": "1:0-209"
                 }
               ],
@@ -669,7 +669,7 @@
               ],
               "optimizationBailout": [],
               "depth": 3,
-              "source": "import { createVNode as _createVNode, resolveComponent as _resolveComponent, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nvar _hoisted_1 = {\n  class: \"container\"\n};\n\nvar _hoisted_2 = /*#__PURE__*/_createVNode(\"h1\", {\n  class: \"bang\"\n}, \"Hello,\", -1\n/* HOISTED */\n);\n\nvar _hoisted_3 = /*#__PURE__*/_createVNode(\"h1\", null, \"my name is dhruw lalan.\", -1\n/* HOISTED */\n);\n\nvar _hoisted_4 = /*#__PURE__*/_createVNode(\"h4\", {\n  class: \"bio\"\n}, \" I love building cool stuff on the WEB & some CLI tools and utilities which help increase developer productivity. \", -1\n/* HOISTED */\n);\n\nvar _hoisted_5 = /*#__PURE__*/_createVNode(\"h4\", {\n  class: \"bio\"\n}, \" I am also very passionate about OSS & actively looking to contribute into some open source projects. \", -1\n/* HOISTED */\n);\n\nvar _hoisted_6 = {\n  class: \"links\"\n};\nvar _hoisted_7 = {\n  href: \"https://twitter.com/dhruwlalan\",\n  class: \"links__link\"\n};\nvar _hoisted_8 = {\n  href: \"https://github.com/dhruwlalan\",\n  class: \"links__link\"\n};\nvar _hoisted_9 = {\n  href: \"https://stackoverflow.com/users/7409506/dhruw-lalan\",\n  class: \"links__link\"\n};\nvar _hoisted_10 = {\n  href: \"https://www.linkedin.com/in/dhruwlalan/\",\n  class: \"links__link\"\n};\nexport function render(_ctx, _cache, $props, $setup, $data, $options) {\n  var _component_twitter_svg = _resolveComponent(\"twitter-svg\");\n\n  var _component_github_svg = _resolveComponent(\"github-svg\");\n\n  var _component_stackoverflow_svg = _resolveComponent(\"stackoverflow-svg\");\n\n  var _component_linkedin_svg = _resolveComponent(\"linkedin-svg\");\n\n  return _openBlock(), _createBlock(\"div\", _hoisted_1, [_hoisted_2, _hoisted_3, _hoisted_4, _hoisted_5, _createVNode(\"div\", _hoisted_6, [_createVNode(\"a\", _hoisted_7, [_createVNode(_component_twitter_svg, {\n    class: \"links__link--svg\"\n  })]), _createVNode(\"a\", _hoisted_8, [_createVNode(_component_github_svg, {\n    class: \"links__link--svg\"\n  })]), _createVNode(\"a\", _hoisted_9, [_createVNode(_component_stackoverflow_svg, {\n    class: \"links__link--svg\"\n  })]), _createVNode(\"a\", _hoisted_10, [_createVNode(_component_linkedin_svg, {\n    class: \"links__link--svg\"\n  })])])]);\n}"
+              "source": "import { createVNode as _createVNode, resolveComponent as _resolveComponent, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nvar _hoisted_1 = {\n  class: \"container\"\n};\n\nvar _hoisted_2 = /*#__PURE__*/_createVNode(\"h1\", {\n  class: \"bang\"\n}, \"Hello,\", -1\n/* HOISTED */\n);\n\nvar _hoisted_3 = /*#__PURE__*/_createVNode(\"h1\", null, \"my name is dhruw lalan.\", -1\n/* HOISTED */\n);\n\nvar _hoisted_4 = /*#__PURE__*/_createVNode(\"h4\", {\n  class: \"bio\"\n}, \" I love building cool stuff on the WEB & some CLI tools and utilities which help increase developer productivity. \", -1\n/* HOISTED */\n);\n\nvar _hoisted_5 = /*#__PURE__*/_createVNode(\"h4\", {\n  class: \"bio\"\n}, \" I am also very passionate about OSS & actively looking to contribute to some open-source projects. \", -1\n/* HOISTED */\n);\n\nvar _hoisted_6 = {\n  class: \"links\"\n};\nvar _hoisted_7 = {\n  href: \"https://twitter.com/dhruwlalan\",\n  class: \"links__link\"\n};\nvar _hoisted_8 = {\n  href: \"https://github.com/dhruwlalan\",\n  class: \"links__link\"\n};\nvar _hoisted_9 = {\n  href: \"https://stackoverflow.com/users/7409506/dhruw-lalan\",\n  class: \"links__link\"\n};\nvar _hoisted_10 = {\n  href: \"https://www.linkedin.com/in/dhruwlalan/\",\n  class: \"links__link\"\n};\nexport function render(_ctx, _cache, $props, $setup, $data, $options) {\n  var _component_twitter_svg = _resolveComponent(\"twitter-svg\");\n\n  var _component_github_svg = _resolveComponent(\"github-svg\");\n\n  var _component_stackoverflow_svg = _resolveComponent(\"stackoverflow-svg\");\n\n  var _component_linkedin_svg = _resolveComponent(\"linkedin-svg\");\n\n  return _openBlock(), _createBlock(\"div\", _hoisted_1, [_hoisted_2, _hoisted_3, _hoisted_4, _hoisted_5, _createVNode(\"div\", _hoisted_6, [_createVNode(\"a\", _hoisted_7, [_createVNode(_component_twitter_svg, {\n    class: \"links__link--svg\"\n  })]), _createVNode(\"a\", _hoisted_8, [_createVNode(_component_github_svg, {\n    class: \"links__link--svg\"\n  })]), _createVNode(\"a\", _hoisted_9, [_createVNode(_component_stackoverflow_svg, {\n    class: \"links__link--svg\"\n  })]), _createVNode(\"a\", _hoisted_10, [_createVNode(_component_linkedin_svg, {\n    class: \"links__link--svg\"\n  })])])]);\n}"
             },
             {
               "id": null,
@@ -1710,7 +1710,7 @@
           "reasons": [
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules"
             }
@@ -5000,7 +5000,7 @@
           "reasons": [
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony side effect evaluation",
@@ -5009,7 +5009,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony side effect evaluation",
@@ -5018,7 +5018,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony side effect evaluation",
@@ -5027,7 +5027,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony side effect evaluation",
@@ -5036,7 +5036,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony side effect evaluation",
@@ -5045,7 +5045,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony side effect evaluation",
@@ -5054,7 +5054,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5063,7 +5063,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5072,7 +5072,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5081,7 +5081,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5090,7 +5090,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5099,7 +5099,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5108,7 +5108,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5117,7 +5117,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5126,7 +5126,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5135,7 +5135,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5144,7 +5144,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5153,7 +5153,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5162,7 +5162,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5171,7 +5171,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5180,7 +5180,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5189,7 +5189,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5198,7 +5198,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5207,7 +5207,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5216,7 +5216,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5225,7 +5225,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5234,7 +5234,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5243,7 +5243,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5252,7 +5252,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5261,7 +5261,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5270,7 +5270,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5279,7 +5279,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5288,7 +5288,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5297,7 +5297,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5306,7 +5306,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5315,7 +5315,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5324,7 +5324,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5333,7 +5333,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5342,7 +5342,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -5506,7 +5506,7 @@
               "reasons": [
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony side effect evaluation",
@@ -5515,7 +5515,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony side effect evaluation",
@@ -5524,7 +5524,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony side effect evaluation",
@@ -5533,7 +5533,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony side effect evaluation",
@@ -5542,7 +5542,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony side effect evaluation",
@@ -5551,7 +5551,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony side effect evaluation",
@@ -5560,7 +5560,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5569,7 +5569,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5578,7 +5578,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5587,7 +5587,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5596,7 +5596,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5605,7 +5605,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5614,7 +5614,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5623,7 +5623,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5632,7 +5632,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5641,7 +5641,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5650,7 +5650,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5659,7 +5659,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5668,7 +5668,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5677,7 +5677,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5686,7 +5686,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5695,7 +5695,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5704,7 +5704,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5713,7 +5713,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5722,7 +5722,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5731,7 +5731,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5740,7 +5740,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5749,7 +5749,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5758,7 +5758,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5767,7 +5767,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5776,7 +5776,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5785,7 +5785,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5794,7 +5794,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5803,7 +5803,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5812,7 +5812,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5821,7 +5821,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5830,7 +5830,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5839,7 +5839,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -5848,7 +5848,7 @@
                 },
                 {
                   "moduleId": 4,
-                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+                  "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
                   "module": "./src/main.js + 20 modules",
                   "moduleName": "./src/main.js + 20 modules",
                   "type": "harmony import specifier",
@@ -10647,7 +10647,7 @@
       "reasons": [
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony side effect evaluation",
@@ -10656,7 +10656,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony side effect evaluation",
@@ -10665,7 +10665,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony side effect evaluation",
@@ -10674,7 +10674,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony side effect evaluation",
@@ -10683,7 +10683,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony side effect evaluation",
@@ -10692,7 +10692,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony side effect evaluation",
@@ -10701,7 +10701,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10710,7 +10710,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10719,7 +10719,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10728,7 +10728,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10737,7 +10737,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10746,7 +10746,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10755,7 +10755,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10764,7 +10764,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10773,7 +10773,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10782,7 +10782,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10791,7 +10791,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10800,7 +10800,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10809,7 +10809,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10818,7 +10818,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10827,7 +10827,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10836,7 +10836,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10845,7 +10845,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10854,7 +10854,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10863,7 +10863,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10872,7 +10872,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10881,7 +10881,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10890,7 +10890,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10899,7 +10899,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10908,7 +10908,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10917,7 +10917,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10926,7 +10926,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10935,7 +10935,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10944,7 +10944,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10953,7 +10953,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10962,7 +10962,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10971,7 +10971,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10980,7 +10980,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -10989,7 +10989,7 @@
         },
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony import specifier",
@@ -11153,7 +11153,7 @@
           "reasons": [
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony side effect evaluation",
@@ -11162,7 +11162,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony side effect evaluation",
@@ -11171,7 +11171,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony side effect evaluation",
@@ -11180,7 +11180,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony side effect evaluation",
@@ -11189,7 +11189,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony side effect evaluation",
@@ -11198,7 +11198,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony side effect evaluation",
@@ -11207,7 +11207,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11216,7 +11216,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11225,7 +11225,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11234,7 +11234,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11243,7 +11243,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11252,7 +11252,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11261,7 +11261,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11270,7 +11270,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11279,7 +11279,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11288,7 +11288,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11297,7 +11297,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11306,7 +11306,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11315,7 +11315,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11324,7 +11324,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11333,7 +11333,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11342,7 +11342,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11351,7 +11351,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11360,7 +11360,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11369,7 +11369,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11378,7 +11378,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11387,7 +11387,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11396,7 +11396,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11405,7 +11405,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11414,7 +11414,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11423,7 +11423,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11432,7 +11432,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11441,7 +11441,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11450,7 +11450,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11459,7 +11459,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11468,7 +11468,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11477,7 +11477,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11486,7 +11486,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -11495,7 +11495,7 @@
             },
             {
               "moduleId": 4,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
               "module": "./src/main.js + 20 modules",
               "moduleName": "./src/main.js + 20 modules",
               "type": "harmony import specifier",
@@ -13009,7 +13009,7 @@
       "reasons": [
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules",
           "type": "harmony side effect evaluation",
@@ -13084,11 +13084,11 @@
     },
     {
       "id": 4,
-      "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+      "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
       "name": "./src/main.js + 20 modules",
       "index": 0,
       "index2": 28,
-      "size": 8549,
+      "size": 8547,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -13260,7 +13260,7 @@
           ],
           "optimizationBailout": [],
           "depth": 1,
-          "source": "import { render } from \"./App.vue?vue&type=template&id=017bd5e0\"\nimport script from \"./App.vue?vue&type=script&lang=js\"\nexport * from \"./App.vue?vue&type=script&lang=js\"\nscript.render = render\n\nexport default script"
+          "source": "import { render } from \"./App.vue?vue&type=template&id=02e738b2\"\nimport script from \"./App.vue?vue&type=script&lang=js\"\nexport * from \"./App.vue?vue&type=script&lang=js\"\nscript.render = render\n\nexport default script"
         },
         {
           "id": null,
@@ -13364,8 +13364,8 @@
         },
         {
           "id": null,
-          "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=017bd5e0",
-          "name": "./src/App.vue?vue&type=template&id=017bd5e0",
+          "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=02e738b2",
+          "name": "./src/App.vue?vue&type=template&id=02e738b2",
           "index": 13,
           "index2": 12,
           "size": 209,
@@ -13400,7 +13400,7 @@
               "module": "./src/App.vue",
               "moduleName": "./src/App.vue",
               "type": "harmony side effect evaluation",
-              "userRequest": "./App.vue?vue&type=template&id=017bd5e0",
+              "userRequest": "./App.vue?vue&type=template&id=02e738b2",
               "loc": "1:0-64"
             },
             {
@@ -13409,7 +13409,7 @@
               "module": "./src/App.vue",
               "moduleName": "./src/App.vue",
               "type": "harmony import specifier",
-              "userRequest": "./App.vue?vue&type=template&id=017bd5e0",
+              "userRequest": "./App.vue?vue&type=template&id=02e738b2",
               "loc": "4:16-22"
             }
           ],
@@ -13421,7 +13421,7 @@
           ],
           "optimizationBailout": [],
           "depth": 2,
-          "source": "export * from \"-!../node_modules/babel-loader/lib/index.js!../node_modules/vue-loader/dist/templateLoader.js??ref--6!../node_modules/vue-loader/dist/index.js??ref--19-0!./App.vue?vue&type=template&id=017bd5e0\""
+          "source": "export * from \"-!../node_modules/babel-loader/lib/index.js!../node_modules/vue-loader/dist/templateLoader.js??ref--6!../node_modules/vue-loader/dist/index.js??ref--19-0!./App.vue?vue&type=template&id=02e738b2\""
         },
         {
           "id": null,
@@ -13513,19 +13513,19 @@
         },
         {
           "id": null,
-          "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=017bd5e0",
-          "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/dist/templateLoader.js??ref--6!./node_modules/vue-loader/dist??ref--19-0!./src/App.vue?vue&type=template&id=017bd5e0",
+          "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=02e738b2",
+          "name": "./node_modules/babel-loader/lib!./node_modules/vue-loader/dist/templateLoader.js??ref--6!./node_modules/vue-loader/dist??ref--19-0!./src/App.vue?vue&type=template&id=02e738b2",
           "index": 14,
           "index2": 11,
-          "size": 2142,
+          "size": 2140,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=017bd5e0",
+          "issuer": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=02e738b2",
           "issuerId": null,
-          "issuerName": "./src/App.vue?vue&type=template&id=017bd5e0",
+          "issuerName": "./src/App.vue?vue&type=template&id=02e738b2",
           "issuerPath": [
             {
               "id": null,
@@ -13539,8 +13539,8 @@
             },
             {
               "id": null,
-              "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=017bd5e0",
-              "name": "./src/App.vue?vue&type=template&id=017bd5e0"
+              "identifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=02e738b2",
+              "name": "./src/App.vue?vue&type=template&id=02e738b2"
             }
           ],
           "failed": false,
@@ -13550,20 +13550,20 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=017bd5e0",
-              "module": "./src/App.vue?vue&type=template&id=017bd5e0",
-              "moduleName": "./src/App.vue?vue&type=template&id=017bd5e0",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=02e738b2",
+              "module": "./src/App.vue?vue&type=template&id=02e738b2",
+              "moduleName": "./src/App.vue?vue&type=template&id=02e738b2",
               "type": "harmony side effect evaluation",
-              "userRequest": "-!../node_modules/babel-loader/lib/index.js!../node_modules/vue-loader/dist/templateLoader.js??ref--6!../node_modules/vue-loader/dist/index.js??ref--19-0!./App.vue?vue&type=template&id=017bd5e0",
+              "userRequest": "-!../node_modules/babel-loader/lib/index.js!../node_modules/vue-loader/dist/templateLoader.js??ref--6!../node_modules/vue-loader/dist/index.js??ref--19-0!./App.vue?vue&type=template&id=02e738b2",
               "loc": "1:0-209"
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=017bd5e0",
-              "module": "./src/App.vue?vue&type=template&id=017bd5e0",
-              "moduleName": "./src/App.vue?vue&type=template&id=017bd5e0",
+              "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\pitcher.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\templateLoader.js??ref--6!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\vue-loader\\dist\\index.js??ref--19-0!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\App.vue?vue&type=template&id=02e738b2",
+              "module": "./src/App.vue?vue&type=template&id=02e738b2",
+              "moduleName": "./src/App.vue?vue&type=template&id=02e738b2",
               "type": "harmony export imported specifier",
-              "userRequest": "-!../node_modules/babel-loader/lib/index.js!../node_modules/vue-loader/dist/templateLoader.js??ref--6!../node_modules/vue-loader/dist/index.js??ref--19-0!./App.vue?vue&type=template&id=017bd5e0",
+              "userRequest": "-!../node_modules/babel-loader/lib/index.js!../node_modules/vue-loader/dist/templateLoader.js??ref--6!../node_modules/vue-loader/dist/index.js??ref--19-0!./App.vue?vue&type=template&id=02e738b2",
               "loc": "1:0-209"
             }
           ],
@@ -13575,7 +13575,7 @@
           ],
           "optimizationBailout": [],
           "depth": 3,
-          "source": "import { createVNode as _createVNode, resolveComponent as _resolveComponent, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nvar _hoisted_1 = {\n  class: \"container\"\n};\n\nvar _hoisted_2 = /*#__PURE__*/_createVNode(\"h1\", {\n  class: \"bang\"\n}, \"Hello,\", -1\n/* HOISTED */\n);\n\nvar _hoisted_3 = /*#__PURE__*/_createVNode(\"h1\", null, \"my name is dhruw lalan.\", -1\n/* HOISTED */\n);\n\nvar _hoisted_4 = /*#__PURE__*/_createVNode(\"h4\", {\n  class: \"bio\"\n}, \" I love building cool stuff on the WEB & some CLI tools and utilities which help increase developer productivity. \", -1\n/* HOISTED */\n);\n\nvar _hoisted_5 = /*#__PURE__*/_createVNode(\"h4\", {\n  class: \"bio\"\n}, \" I am also very passionate about OSS & actively looking to contribute into some open source projects. \", -1\n/* HOISTED */\n);\n\nvar _hoisted_6 = {\n  class: \"links\"\n};\nvar _hoisted_7 = {\n  href: \"https://twitter.com/dhruwlalan\",\n  class: \"links__link\"\n};\nvar _hoisted_8 = {\n  href: \"https://github.com/dhruwlalan\",\n  class: \"links__link\"\n};\nvar _hoisted_9 = {\n  href: \"https://stackoverflow.com/users/7409506/dhruw-lalan\",\n  class: \"links__link\"\n};\nvar _hoisted_10 = {\n  href: \"https://www.linkedin.com/in/dhruwlalan/\",\n  class: \"links__link\"\n};\nexport function render(_ctx, _cache, $props, $setup, $data, $options) {\n  var _component_twitter_svg = _resolveComponent(\"twitter-svg\");\n\n  var _component_github_svg = _resolveComponent(\"github-svg\");\n\n  var _component_stackoverflow_svg = _resolveComponent(\"stackoverflow-svg\");\n\n  var _component_linkedin_svg = _resolveComponent(\"linkedin-svg\");\n\n  return _openBlock(), _createBlock(\"div\", _hoisted_1, [_hoisted_2, _hoisted_3, _hoisted_4, _hoisted_5, _createVNode(\"div\", _hoisted_6, [_createVNode(\"a\", _hoisted_7, [_createVNode(_component_twitter_svg, {\n    class: \"links__link--svg\"\n  })]), _createVNode(\"a\", _hoisted_8, [_createVNode(_component_github_svg, {\n    class: \"links__link--svg\"\n  })]), _createVNode(\"a\", _hoisted_9, [_createVNode(_component_stackoverflow_svg, {\n    class: \"links__link--svg\"\n  })]), _createVNode(\"a\", _hoisted_10, [_createVNode(_component_linkedin_svg, {\n    class: \"links__link--svg\"\n  })])])]);\n}"
+          "source": "import { createVNode as _createVNode, resolveComponent as _resolveComponent, openBlock as _openBlock, createBlock as _createBlock } from \"vue\";\nvar _hoisted_1 = {\n  class: \"container\"\n};\n\nvar _hoisted_2 = /*#__PURE__*/_createVNode(\"h1\", {\n  class: \"bang\"\n}, \"Hello,\", -1\n/* HOISTED */\n);\n\nvar _hoisted_3 = /*#__PURE__*/_createVNode(\"h1\", null, \"my name is dhruw lalan.\", -1\n/* HOISTED */\n);\n\nvar _hoisted_4 = /*#__PURE__*/_createVNode(\"h4\", {\n  class: \"bio\"\n}, \" I love building cool stuff on the WEB & some CLI tools and utilities which help increase developer productivity. \", -1\n/* HOISTED */\n);\n\nvar _hoisted_5 = /*#__PURE__*/_createVNode(\"h4\", {\n  class: \"bio\"\n}, \" I am also very passionate about OSS & actively looking to contribute to some open-source projects. \", -1\n/* HOISTED */\n);\n\nvar _hoisted_6 = {\n  class: \"links\"\n};\nvar _hoisted_7 = {\n  href: \"https://twitter.com/dhruwlalan\",\n  class: \"links__link\"\n};\nvar _hoisted_8 = {\n  href: \"https://github.com/dhruwlalan\",\n  class: \"links__link\"\n};\nvar _hoisted_9 = {\n  href: \"https://stackoverflow.com/users/7409506/dhruw-lalan\",\n  class: \"links__link\"\n};\nvar _hoisted_10 = {\n  href: \"https://www.linkedin.com/in/dhruwlalan/\",\n  class: \"links__link\"\n};\nexport function render(_ctx, _cache, $props, $setup, $data, $options) {\n  var _component_twitter_svg = _resolveComponent(\"twitter-svg\");\n\n  var _component_github_svg = _resolveComponent(\"github-svg\");\n\n  var _component_stackoverflow_svg = _resolveComponent(\"stackoverflow-svg\");\n\n  var _component_linkedin_svg = _resolveComponent(\"linkedin-svg\");\n\n  return _openBlock(), _createBlock(\"div\", _hoisted_1, [_hoisted_2, _hoisted_3, _hoisted_4, _hoisted_5, _createVNode(\"div\", _hoisted_6, [_createVNode(\"a\", _hoisted_7, [_createVNode(_component_twitter_svg, {\n    class: \"links__link--svg\"\n  })]), _createVNode(\"a\", _hoisted_8, [_createVNode(_component_github_svg, {\n    class: \"links__link--svg\"\n  })]), _createVNode(\"a\", _hoisted_9, [_createVNode(_component_stackoverflow_svg, {\n    class: \"links__link--svg\"\n  })]), _createVNode(\"a\", _hoisted_10, [_createVNode(_component_linkedin_svg, {\n    class: \"links__link--svg\"\n  })])])]);\n}"
         },
         {
           "id": null,
@@ -14616,7 +14616,7 @@
       "reasons": [
         {
           "moduleId": 4,
-          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 0d79039379ad25de93c143ba0d0a7084",
+          "moduleIdentifier": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\src\\main.js 8e184d9b0ec7ae9779a3e6836d53fc5b",
           "module": "./src/main.js + 20 modules",
           "moduleName": "./src/main.js + 20 modules"
         }
