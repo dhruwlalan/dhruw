@@ -3,7 +3,7 @@
    "version": "1.0.0",
    "scripts": {
       "start": "webpack-dev-server --config configs/webpack.start.js",
-      "build": "webpack --config configs/webpack.prod.js",
+      "build": "npm run clean && webpack --config configs/webpack.prod.js",
       "vite": "vite",
       "clean": "rimraf dist",
       "wba": "webpack-bundle-analyzer dist/stats.json"

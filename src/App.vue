@@ -3,11 +3,11 @@
       <h1 class="bang">Hello,</h1>
       <h1>my name is dhruw lalan.</h1>
       <h4 class="bio">
-         I like building cool stuff on the web & some CLI tools and utilities which help increase
+         I love building cool stuff on the WEB & some CLI tools and utilities which help increase
          developer productivity.
       </h4>
       <h4 class="bio">
-         I am also very passionate about OSS & will be contributing to some open some source
+         I am also very passionate about OSS & actively looking to contribute to some open source
          projects.
       </h4>
       <div class="links">

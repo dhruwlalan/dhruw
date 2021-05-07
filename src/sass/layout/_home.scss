@@ -1,7 +1,7 @@
 @use '../abstracts' as *;
 
 h1 {
-   @include typo($c: $primary, $ff: $courier, $fs: 4rem, $fw: 700);
+   @include typo($c: $primary, $ff: $courier, $fs: 4rem, $fw: 500);
 
    @media screen and (max-width: 600px) {
       font-size: 6.4vw;
@@ -50,9 +50,10 @@ h5 {
    }
 }
 .bang {
-   font-size: 6rem;
+   font-size: 5rem;
+   font-weight: bold;
    @media screen and (max-width: 600px) {
-      font-size: calc(6.4vw + 1.4rem);
+      font-size: calc(5.4vw + 1rem);
    }
 }
 a[href^="https://stackoverflow"] > *
