@@ -3,7 +3,7 @@
       <h1 class="bang">Hello,</h1>
       <h1>my name is dhruw lalan.</h1>
       <h4 class="bio">
-         I love building cool stuff on the WEB & some CLI tools and utilities which help increase
+         I love building cool stuff on the web & some CLI tools and utilities which help increase
          developer productivity.
       </h4>
       <h4 class="bio">
