@@ -37,6 +37,7 @@ h5 {
 
    &__link {
       @include flex($jc: center, $ai: center);
+      text-decoration: none;
       fill: $primary;
 
       &:not(:last-child) {
@@ -46,6 +47,27 @@ h5 {
       &--svg {
          height: 2.6rem;
          width: 2.6rem;
+      }
+
+      &--resume {
+         @include flex($jc: center, $ai: center);
+         @include size($h: 20px);
+         @include pbm($rad: 2px, $pr: 4px);
+         background-color: $primary;
+         &--svg {
+            height: 16px;
+            fill: $background;
+         }
+         &--text {
+            height: 2.8rem;
+            margin-left: -2px;
+            @include typo(
+               $c: $background,
+               $ff: sans-serif,
+               $fs: 2rem,
+               $fw: 900
+            );
+         }
       }
    }
 }

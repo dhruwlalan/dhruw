@@ -109,6 +109,13 @@ module.exports = {
                options: { name: '[name].[ext]', esModule: false, outputPath: 'assets/fonts' },
             },
          },
+         {
+            test: /\.pdf$/,
+            use: {
+               loader: 'file-loader',
+               options: { name: '[name].[ext]', esModule: false, outputPath: 'assets/resume' },
+            },
+         },
       ],
    },
 };
