@@ -31,7 +31,7 @@ h5 {
    }
 }
 .links {
-   @include size($h: 5rem, $w: 90%);
+   @include size($h: 5rem);
    @include pbm($mt: 2.8rem);
    @include flex($jc: flex-start, $ai: center);
 
@@ -39,6 +39,14 @@ h5 {
       @include flex($jc: center, $ai: center);
       text-decoration: none;
       fill: $primary;
+
+      &:hover,
+      &:active {
+         fill: #00c8ff;
+      }
+      &:focus {
+         fill: $primary;
+      }
 
       &:not(:last-child) {
          margin-right: 3rem;
@@ -54,19 +62,27 @@ h5 {
          @include size($h: 20px);
          @include pbm($rad: 2px, $pr: 4px);
          background-color: $primary;
+
+         &:hover,
+         &:active {
+            background-color: #00c8ff;
+         }
+         &:focus {
+            background-color: $primary;
+         }
+
          &--svg {
             height: 16px;
             fill: $background;
          }
          &--text {
-            height: 2.8rem;
+            height: 2.2rem;
             margin-left: -2px;
-            @include typo(
-               $c: $background,
-               $ff: sans-serif,
-               $fs: 2rem,
-               $fw: 900
-            );
+            @include typo($c: $background, $ff: $courier, $fs: 2rem, $fw: 900);
+
+            @media screen and (max-width: 600px) {
+               @include typo($fs: 2rem, $fw: 500);
+            }
          }
       }
    }
