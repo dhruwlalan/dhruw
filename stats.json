@@ -2,14 +2,14 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "563c9be1e6f570f8e7fa",
-  "time": 9202,
-  "builtAt": 1620890814579,
+  "hash": "a342358740c588e824cf",
+  "time": 27501,
+  "builtAt": 1620982129557,
   "publicPath": "",
   "outputPath": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\dist",
   "assetsByChunkName": {
     "index": [
-      "style.24472aa83d601916950f.css",
+      "style.aa643bc6fe24dbcade2c.css",
       "index.b6c41924ef1ac66356c1.bundle.js"
     ],
     "vendor": "vendor.a8cf9c82fcacd26937f8.bundle.js"
@@ -58,8 +58,8 @@
       "emitted": true
     },
     {
-      "name": "style.24472aa83d601916950f.css",
-      "size": 2980,
+      "name": "style.aa643bc6fe24dbcade2c.css",
+      "size": 3375,
       "chunks": [
         0
       ],
@@ -95,7 +95,7 @@
       ],
       "assets": [
         "vendor.a8cf9c82fcacd26937f8.bundle.js",
-        "style.24472aa83d601916950f.css",
+        "style.aa643bc6fe24dbcade2c.css",
         "index.b6c41924ef1ac66356c1.bundle.js"
       ],
       "children": {},
@@ -110,7 +110,7 @@
       ],
       "assets": [
         "vendor.a8cf9c82fcacd26937f8.bundle.js",
-        "style.24472aa83d601916950f.css",
+        "style.aa643bc6fe24dbcade2c.css",
         "index.b6c41924ef1ac66356c1.bundle.js"
       ],
       "children": {},
@@ -123,15 +123,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 14002,
+      "size": 14401,
       "names": [
         "index"
       ],
       "files": [
-        "style.24472aa83d601916950f.css",
+        "style.aa643bc6fe24dbcade2c.css",
         "index.b6c41924ef1ac66356c1.bundle.js"
       ],
-      "hash": "6482a8af175e89c50064",
+      "hash": "dc658cbe4f61248ba775",
       "siblings": [
         1
       ],
@@ -1968,7 +1968,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/postcss-loader/dist/cjs.js??ref--2-2!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss",
           "index": 5,
           "index2": 2,
-          "size": 3167,
+          "size": 3566,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -15552,7 +15552,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/postcss-loader/dist/cjs.js??ref--2-2!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss",
       "index": 5,
       "index2": 2,
-      "size": 3167,
+      "size": 3566,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -15821,14 +15821,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 5083,
+          "size": 5484,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "28d0e7d97bc2dc0afe74",
+          "hash": "bb588104cae797eaa39b",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -15898,7 +15898,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/postcss-loader/dist/cjs.js??ref--2-2!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss",
               "index": 0,
               "index2": 1,
-              "size": 3478,
+              "size": 3879,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -15933,7 +15933,7 @@
                 "ModuleConcatenation bailout: Module uses module.id"
               ],
               "depth": 0,
-              "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \":root{--courier: \\\"Courier Prime\\\", monospace;--white: White;--background: #101012;--primary: #73c7ef;--secondary: #8ca9bd}body{background:#101012;background:var(--background);-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent}*,*::after,*::before{margin:0;padding:0;-webkit-box-sizing:inherit;box-sizing:inherit}html{font-size:62.5%}body{-webkit-box-sizing:border-box;box-sizing:border-box}.preloader{height:100vh;width:100vw;background:#101012;background:var(--background);position:fixed;-webkit-transition:-webkit-transform 1s ease-in;transition:-webkit-transform 1s ease-in;transition:transform 1s ease-in;transition:transform 1s ease-in, -webkit-transform 1s ease-in}.move-down{-webkit-transform:translateY(40rem) !important;transform:translateY(40rem) !important}.fade-out{-webkit-animation:fade-out 1s;animation:fade-out 1s}@-webkit-keyframes fade-out{from{opacity:1}to{opacity:0}}@keyframes fade-out{from{opacity:1}to{opacity:0}}.container{max-width:100rem;margin:0 auto;padding:2rem;padding-top:10rem}@media screen and (max-width: 600px){.container{padding-top:3rem}}h1{color:#73c7ef;color:var(--primary);font:500 4rem \\\"Courier Prime\\\", monospace;font:500 4rem var(--courier)}@media screen and (max-width: 600px){h1{font-size:6.4vw}}h4{max-width:55rem;color:#8ca9bd;color:var(--secondary);font:400 2.4rem \\\"Courier Prime\\\", monospace;font:400 2.4rem var(--courier);margin-top:3rem}@media screen and (max-width: 600px){h4{font-size:1.8rem}}h5{color:#8ca9bd;color:var(--secondary);font:italic 400 2rem \\\"Courier Prime\\\", monospace;font:italic 400 2rem var(--courier);margin-top:3rem}@media screen and (max-width: 600px){h5{font-size:1.8rem}}.links{height:5rem;width:90%;margin-top:2.8rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.links__link{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;text-decoration:none;fill:#73c7ef;fill:var(--primary)}.links__link:not(:last-child){margin-right:3rem}.links__link--svg{height:2.6rem;width:2.6rem}.links__link--resume{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;height:20px;padding-right:4px;border-radius:2px;background-color:#73c7ef;background-color:var(--primary)}.links__link--resume--svg{height:16px;fill:#101012;fill:var(--background)}.links__link--resume--text{height:2.8rem;margin-left:-2px;color:#101012;color:var(--background);font:900 2rem sans-serif}.bang{font-size:5rem;font-weight:bold}@media screen and (max-width: 600px){.bang{font-size:calc(5.4vw + 1rem)}}a[href^=\\\"https://stackoverflow\\\"]>*{height:2.5rem;width:2.5rem}\", \"\"]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
+              "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \":root{--courier: \\\"Courier Prime\\\", monospace;--white: White;--background: #101012;--primary: #73c7ef;--secondary: #8ca9bd}body{background:#101012;background:var(--background);-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent}*,*::after,*::before{margin:0;padding:0;-webkit-box-sizing:inherit;box-sizing:inherit}html{font-size:62.5%}body{-webkit-box-sizing:border-box;box-sizing:border-box}.preloader{height:100vh;width:100vw;background:#101012;background:var(--background);position:fixed;-webkit-transition:-webkit-transform 1s ease-in;transition:-webkit-transform 1s ease-in;transition:transform 1s ease-in;transition:transform 1s ease-in, -webkit-transform 1s ease-in}.move-down{-webkit-transform:translateY(40rem) !important;transform:translateY(40rem) !important}.fade-out{-webkit-animation:fade-out 1s;animation:fade-out 1s}@-webkit-keyframes fade-out{from{opacity:1}to{opacity:0}}@keyframes fade-out{from{opacity:1}to{opacity:0}}.container{max-width:100rem;margin:0 auto;padding:2rem;padding-top:10rem}@media screen and (max-width: 600px){.container{padding-top:3rem}}h1{color:#73c7ef;color:var(--primary);font:500 4rem \\\"Courier Prime\\\", monospace;font:500 4rem var(--courier)}@media screen and (max-width: 600px){h1{font-size:6.4vw}}h4{max-width:55rem;color:#8ca9bd;color:var(--secondary);font:400 2.4rem \\\"Courier Prime\\\", monospace;font:400 2.4rem var(--courier);margin-top:3rem}@media screen and (max-width: 600px){h4{font-size:1.8rem}}h5{color:#8ca9bd;color:var(--secondary);font:italic 400 2rem \\\"Courier Prime\\\", monospace;font:italic 400 2rem var(--courier);margin-top:3rem}@media screen and (max-width: 600px){h5{font-size:1.8rem}}.links{height:5rem;margin-top:2.8rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.links__link{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;text-decoration:none;fill:#73c7ef;fill:var(--primary)}.links__link:hover,.links__link:active{fill:#00c8ff}.links__link:focus{fill:#73c7ef;fill:var(--primary)}.links__link:not(:last-child){margin-right:3rem}.links__link--svg{height:2.6rem;width:2.6rem}.links__link--resume{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;height:20px;padding-right:4px;border-radius:2px;background-color:#73c7ef;background-color:var(--primary)}.links__link--resume:hover,.links__link--resume:active{background-color:#00c8ff}.links__link--resume:focus{background-color:#73c7ef;background-color:var(--primary)}.links__link--resume--svg{height:16px;fill:#101012;fill:var(--background)}.links__link--resume--text{height:2.2rem;margin-left:-2px;color:#101012;color:var(--background);font:900 2rem \\\"Courier Prime\\\", monospace;font:900 2rem var(--courier)}@media screen and (max-width: 600px){.links__link--resume--text{font-weight:500;font-size:2rem}}.bang{font-size:5rem;font-weight:bold}@media screen and (max-width: 600px){.bang{font-size:calc(5.4vw + 1rem)}}a[href^=\\\"https://stackoverflow\\\"]>*{height:2.5rem;width:2.5rem}\", \"\"]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
             }
           ],
           "filteredModules": 0,
@@ -16014,7 +16014,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--2-1!./node_modules/postcss-loader/dist/cjs.js??ref--2-2!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss",
           "index": 0,
           "index2": 1,
-          "size": 3478,
+          "size": 3879,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -16049,7 +16049,7 @@
             "ModuleConcatenation bailout: Module uses module.id"
           ],
           "depth": 0,
-          "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \":root{--courier: \\\"Courier Prime\\\", monospace;--white: White;--background: #101012;--primary: #73c7ef;--secondary: #8ca9bd}body{background:#101012;background:var(--background);-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent}*,*::after,*::before{margin:0;padding:0;-webkit-box-sizing:inherit;box-sizing:inherit}html{font-size:62.5%}body{-webkit-box-sizing:border-box;box-sizing:border-box}.preloader{height:100vh;width:100vw;background:#101012;background:var(--background);position:fixed;-webkit-transition:-webkit-transform 1s ease-in;transition:-webkit-transform 1s ease-in;transition:transform 1s ease-in;transition:transform 1s ease-in, -webkit-transform 1s ease-in}.move-down{-webkit-transform:translateY(40rem) !important;transform:translateY(40rem) !important}.fade-out{-webkit-animation:fade-out 1s;animation:fade-out 1s}@-webkit-keyframes fade-out{from{opacity:1}to{opacity:0}}@keyframes fade-out{from{opacity:1}to{opacity:0}}.container{max-width:100rem;margin:0 auto;padding:2rem;padding-top:10rem}@media screen and (max-width: 600px){.container{padding-top:3rem}}h1{color:#73c7ef;color:var(--primary);font:500 4rem \\\"Courier Prime\\\", monospace;font:500 4rem var(--courier)}@media screen and (max-width: 600px){h1{font-size:6.4vw}}h4{max-width:55rem;color:#8ca9bd;color:var(--secondary);font:400 2.4rem \\\"Courier Prime\\\", monospace;font:400 2.4rem var(--courier);margin-top:3rem}@media screen and (max-width: 600px){h4{font-size:1.8rem}}h5{color:#8ca9bd;color:var(--secondary);font:italic 400 2rem \\\"Courier Prime\\\", monospace;font:italic 400 2rem var(--courier);margin-top:3rem}@media screen and (max-width: 600px){h5{font-size:1.8rem}}.links{height:5rem;width:90%;margin-top:2.8rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.links__link{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;text-decoration:none;fill:#73c7ef;fill:var(--primary)}.links__link:not(:last-child){margin-right:3rem}.links__link--svg{height:2.6rem;width:2.6rem}.links__link--resume{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;height:20px;padding-right:4px;border-radius:2px;background-color:#73c7ef;background-color:var(--primary)}.links__link--resume--svg{height:16px;fill:#101012;fill:var(--background)}.links__link--resume--text{height:2.8rem;margin-left:-2px;color:#101012;color:var(--background);font:900 2rem sans-serif}.bang{font-size:5rem;font-weight:bold}@media screen and (max-width: 600px){.bang{font-size:calc(5.4vw + 1rem)}}a[href^=\\\"https://stackoverflow\\\"]>*{height:2.5rem;width:2.5rem}\", \"\"]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
+          "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \":root{--courier: \\\"Courier Prime\\\", monospace;--white: White;--background: #101012;--primary: #73c7ef;--secondary: #8ca9bd}body{background:#101012;background:var(--background);-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent}*,*::after,*::before{margin:0;padding:0;-webkit-box-sizing:inherit;box-sizing:inherit}html{font-size:62.5%}body{-webkit-box-sizing:border-box;box-sizing:border-box}.preloader{height:100vh;width:100vw;background:#101012;background:var(--background);position:fixed;-webkit-transition:-webkit-transform 1s ease-in;transition:-webkit-transform 1s ease-in;transition:transform 1s ease-in;transition:transform 1s ease-in, -webkit-transform 1s ease-in}.move-down{-webkit-transform:translateY(40rem) !important;transform:translateY(40rem) !important}.fade-out{-webkit-animation:fade-out 1s;animation:fade-out 1s}@-webkit-keyframes fade-out{from{opacity:1}to{opacity:0}}@keyframes fade-out{from{opacity:1}to{opacity:0}}.container{max-width:100rem;margin:0 auto;padding:2rem;padding-top:10rem}@media screen and (max-width: 600px){.container{padding-top:3rem}}h1{color:#73c7ef;color:var(--primary);font:500 4rem \\\"Courier Prime\\\", monospace;font:500 4rem var(--courier)}@media screen and (max-width: 600px){h1{font-size:6.4vw}}h4{max-width:55rem;color:#8ca9bd;color:var(--secondary);font:400 2.4rem \\\"Courier Prime\\\", monospace;font:400 2.4rem var(--courier);margin-top:3rem}@media screen and (max-width: 600px){h4{font-size:1.8rem}}h5{color:#8ca9bd;color:var(--secondary);font:italic 400 2rem \\\"Courier Prime\\\", monospace;font:italic 400 2rem var(--courier);margin-top:3rem}@media screen and (max-width: 600px){h5{font-size:1.8rem}}.links{height:5rem;margin-top:2.8rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.links__link{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;text-decoration:none;fill:#73c7ef;fill:var(--primary)}.links__link:hover,.links__link:active{fill:#00c8ff}.links__link:focus{fill:#73c7ef;fill:var(--primary)}.links__link:not(:last-child){margin-right:3rem}.links__link--svg{height:2.6rem;width:2.6rem}.links__link--resume{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;height:20px;padding-right:4px;border-radius:2px;background-color:#73c7ef;background-color:var(--primary)}.links__link--resume:hover,.links__link--resume:active{background-color:#00c8ff}.links__link--resume:focus{background-color:#73c7ef;background-color:var(--primary)}.links__link--resume--svg{height:16px;fill:#101012;fill:var(--background)}.links__link--resume--text{height:2.2rem;margin-left:-2px;color:#101012;color:var(--background);font:900 2rem \\\"Courier Prime\\\", monospace;font:900 2rem var(--courier)}@media screen and (max-width: 600px){.links__link--resume--text{font-weight:500;font-size:2rem}}.bang{font-size:5rem;font-weight:bold}@media screen and (max-width: 600px){.bang{font-size:calc(5.4vw + 1rem)}}a[href^=\\\"https://stackoverflow\\\"]>*{height:2.5rem;width:2.5rem}\", \"\"]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
         }
       ],
       "filteredModules": 0,
