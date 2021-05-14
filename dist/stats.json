@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "a342358740c588e824cf",
-  "time": 27501,
-  "builtAt": 1620982129557,
+  "hash": "38f2ac28143e01ec900f",
+  "time": 6223,
+  "builtAt": 1620986229894,
   "publicPath": "",
   "outputPath": "C:\\Users\\dhruw-pc\\Desktop\\my-projects\\MYSITE\\dist",
   "assetsByChunkName": {
@@ -51,7 +51,7 @@
     },
     {
       "name": "index.html",
-      "size": 737,
+      "size": 1209,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -15619,7 +15619,7 @@
       "assets": [
         {
           "name": "__child-HtmlWebpackPlugin_0",
-          "size": 4352,
+          "size": 4844,
           "chunks": [
             0
           ],
@@ -15661,14 +15661,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 659,
+          "size": 1151,
           "names": [
             "HtmlWebpackPlugin_0"
           ],
           "files": [
             "__child-HtmlWebpackPlugin_0"
           ],
-          "hash": "7dc523bea8d8c287568e",
+          "hash": "a0209a59eb49645ab015",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -15680,7 +15680,7 @@
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
               "index": 0,
               "index2": 0,
-              "size": 659,
+              "size": 1151,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -15713,7 +15713,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "// Module\nvar code = \"<!DOCTYPE html> <html lang=\\\"en\\\" dir=\\\"ltr\\\"> <head> <meta charset=\\\"utf-8\\\"/> <meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no\\\"/> <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\"/> <title>dhruw lalan</title> <link rel=\\\"icon\\\" href=\\\"./assets/favicon/favicon.ico?v=2\\\"/> <link rel=\\\"preconnect\\\" href=\\\"https://fonts.gstatic.com\\\"/> <link href=\\\"https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap\\\" rel=\\\"stylesheet\\\"/> </head> <body> <div class=\\\"preloader\\\"></div> <div id=\\\"app\\\"></div> </body> </html> \";\n// Exports\nmodule.exports = code;"
+              "source": "// Module\nvar code = \"<!DOCTYPE html> <html lang=\\\"en\\\" dir=\\\"ltr\\\"> <head> <script>!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({\\\"gtm.start\\\":(new Date).getTime(),event:\\\"gtm.js\\\"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src=\\\"https://www.googletagmanager.com/gtm.js?id=GTM-58T6WSV\\\",m.parentNode.insertBefore(r,m)}(window,document,\\\"script\\\",\\\"dataLayer\\\")</script> <meta charset=\\\"utf-8\\\"/> <meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no\\\"/> <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\"/> <title>dhruw lalan</title> <link rel=\\\"icon\\\" href=\\\"./assets/favicon/favicon.ico?v=2\\\"/> <link rel=\\\"preconnect\\\" href=\\\"https://fonts.gstatic.com\\\"/> <link href=\\\"https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap\\\" rel=\\\"stylesheet\\\"/> </head> <body> <noscript><iframe src=\\\"https://www.googletagmanager.com/ns.html?id=GTM-58T6WSV\\\" height=\\\"0\\\" width=\\\"0\\\" style=\\\"display:none;visibility:hidden\\\"></iframe></noscript> <div class=\\\"preloader\\\"></div> <div id=\\\"app\\\"></div> </body> </html> \";\n// Exports\nmodule.exports = code;"
             }
           ],
           "filteredModules": 0,
@@ -15736,7 +15736,7 @@
           "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
           "index": 0,
           "index2": 0,
-          "size": 659,
+          "size": 1151,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -15769,7 +15769,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "// Module\nvar code = \"<!DOCTYPE html> <html lang=\\\"en\\\" dir=\\\"ltr\\\"> <head> <meta charset=\\\"utf-8\\\"/> <meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no\\\"/> <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\"/> <title>dhruw lalan</title> <link rel=\\\"icon\\\" href=\\\"./assets/favicon/favicon.ico?v=2\\\"/> <link rel=\\\"preconnect\\\" href=\\\"https://fonts.gstatic.com\\\"/> <link href=\\\"https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap\\\" rel=\\\"stylesheet\\\"/> </head> <body> <div class=\\\"preloader\\\"></div> <div id=\\\"app\\\"></div> </body> </html> \";\n// Exports\nmodule.exports = code;"
+          "source": "// Module\nvar code = \"<!DOCTYPE html> <html lang=\\\"en\\\" dir=\\\"ltr\\\"> <head> <script>!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({\\\"gtm.start\\\":(new Date).getTime(),event:\\\"gtm.js\\\"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src=\\\"https://www.googletagmanager.com/gtm.js?id=GTM-58T6WSV\\\",m.parentNode.insertBefore(r,m)}(window,document,\\\"script\\\",\\\"dataLayer\\\")</script> <meta charset=\\\"utf-8\\\"/> <meta name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no\\\"/> <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\"/> <title>dhruw lalan</title> <link rel=\\\"icon\\\" href=\\\"./assets/favicon/favicon.ico?v=2\\\"/> <link rel=\\\"preconnect\\\" href=\\\"https://fonts.gstatic.com\\\"/> <link href=\\\"https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap\\\" rel=\\\"stylesheet\\\"/> </head> <body> <noscript><iframe src=\\\"https://www.googletagmanager.com/ns.html?id=GTM-58T6WSV\\\" height=\\\"0\\\" width=\\\"0\\\" style=\\\"display:none;visibility:hidden\\\"></iframe></noscript> <div class=\\\"preloader\\\"></div> <div id=\\\"app\\\"></div> </body> </html> \";\n// Exports\nmodule.exports = code;"
         }
       ],
       "filteredModules": 0,
